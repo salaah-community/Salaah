@@ -9,11 +9,30 @@ import IMG8 from "../../assets/capg-banner.jpg";
 import IMG9 from "../../assets/accenture-banner.jpg";
 
 import Mentors from "../Company/mentors";
-
+import harshit from '../../assets/harshit.jpeg';
+import aryan from '../../assets/aryan.jpeg';
+import akshat from '../../assets/akshat.jpeg';
 import shreyanshShukla from '../../assets/shreyanshShukla.jpeg';
 import vikramSeth from '../../assets/vikramSeth.jpeg';
 import riturajSinghGour from '../../assets/riturajSinghGour.jpeg';
 import sanjaySinghBisht from '../../assets/sanjaySinghBisht.jpeg';
+import rohitJ from '../../assets/rohitJ.jpeg';
+import abhinav from '../../assets/abhinav.jpeg';
+import rishabh from '../../assets/rishabh.jpeg';
+import ss from '../../assets/team/ss.jpg'
+import yashS from '../../assets/team/yash.jpg'
+import rohit from '../../assets/team/rs.jpg'
+import rohitch from '../../assets/team/rohit.png'
+import ug from '../../assets/team/utkarsh.png'
+import us from '../../assets/team/us.jpg'
+import sid from '../../assets/team/siddhantsingh.jpeg'
+import rashmi from '../../assets/team/rashmisingh.jpg'
+import aarushi from '../../assets/team/aarushi.jpeg'
+import vritti from '../../assets/team/vritti.jpg'
+import jhanvi from '../../assets/jhanvi.jpeg'
+import mansi from '../../assets/mansi.jpeg'
+import riya from '../../assets/riya.jpeg'
+import ayush from '../../assets/ayush.jpeg'
 
 export const compdata = [
   {
@@ -24,6 +43,21 @@ export const compdata = [
           name="Sameeksha Agarwal"
           img="https://drive.google.com/uc?export=view&id=1Fp11f6mutYB4msTcQqkuDxv8f71foHoB"
           link="https://www.linkedin.com/in/shreyansh-shukla-38842b187"
+        />
+        <Mentors
+          name="Vritti Mehrotra"
+          img={vritti}
+          link="https://www.linkedin.com/in/vritti-mehrotra-1053841ab/"
+        />
+        <Mentors
+          name="Aarushi Rai"
+          img={aarushi}
+          link="https://www.linkedin.com/in/aarushi-rai-0a176a1a7/"
+        />
+        <Mentors
+          name="Rashmi Singh"
+          img={rashmi}
+          link="https://www.linkedin.com/in/rashmi-singh-5610b31b9/"
         />
       </div>
     ),
@@ -320,28 +354,28 @@ export const compdata = [
         />
         <Mentors
           name="Mansi Chauhan"
-          img="https://drive.google.com/u/0/open?usp=forms_web&id=1Ff3KG4qTcAtRQtUmsBFt2hc7ywOXglGz"
+          img={mansi}
           link="https://www.linkedin.com/in/mansi-chauhan-1a914b197/"
         />
         <Mentors
           name="Jhanvi Singh"
-          img="https://drive.google.com/u/0/open?usp=forms_web&id=1Ff3KG4qTcAtRQtUmsBFt2hc7ywOXglGz"
-          link="https://www.linkedin.com/in/mansi-chauhan-1a914b197/"
+          img={jhanvi}
+          link="https://www.linkedin.com"
         />
         <Mentors
           name="Ayush Shukla"
-          img="https://drive.google.com/u/0/open?usp=forms_web&id=1Ff3KG4qTcAtRQtUmsBFt2hc7ywOXglGz"
-          link="https://www.linkedin.com/in/mansi-chauhan-1a914b197/"
+          img={ayush}
+          link="https://www.linkedin.com/in/ayush-shukla-73a605147/"
         />
         <Mentors
           name="Rohit Choudhary"
-          img="https://drive.google.com/u/0/open?usp=forms_web&id=1Ff3KG4qTcAtRQtUmsBFt2hc7ywOXglGz"
-          link="https://www.linkedin.com/in/mansi-chauhan-1a914b197/"
+          img={rohitch}
+          link="https://www.linkedin.com/in/rohit-choudhary13/"
         />
         <Mentors
           name="Utkarsh Goel"
-          img="https://drive.google.com/u/0/open?usp=forms_web&id=1Ff3KG4qTcAtRQtUmsBFt2hc7ywOXglGz"
-          link="https://www.linkedin.com/in/mansi-chauhan-1a914b197/"
+          img={ug}
+          link="https://www.linkedin.com/in/goelutkarsh/"
         />
       </div>
     ),
@@ -551,18 +585,18 @@ export const compdata = [
         />
         <Mentors
           name="Rohit Jhingran"
-          img="https://drive.google.com/uc?export=view&id=1GXSKEIYmP8Hlp9uPUIm9EOhMNfnn1OLO"
-          link="https://www.linkedin.com/in/animesh-pokhriyal-1121441b0/"
+          img={rohitJ}
+          link="https://www.linkedin.com/in/rohit-jhingran-7a60a1207/"
         />
         <Mentors
           name="Abhinav Srivastava"
-          img="https://drive.google.com/uc?export=view&id=1GXSKEIYmP8Hlp9uPUIm9EOhMNfnn1OLO"
-          link="https://www.linkedin.com/in/animesh-pokhriyal-1121441b0/"
+          img={abhinav}
+          link="https://www.linkedin.com/in/abhinav-srivastava-a6442714b/"
         />
         <Mentors
           name="Rishabh Krishna"
-          img="https://drive.google.com/uc?export=view&id=1GXSKEIYmP8Hlp9uPUIm9EOhMNfnn1OLO"
-          link="https://www.linkedin.com/in/animesh-pokhriyal-1121441b0/"
+          img={rishabh}
+          link="https://www.linkedin.com/in/rishabh-krishna-47045477/"
         />
       </div>
     ),
@@ -669,32 +703,32 @@ export const compdata = [
       <div className="all-mentors-cards">
         <Mentors
           name="Ria Pundir"
-          img="https://drive.google.com/uc?export=view&id=1psE2RSinJb23jt-EKBgJ4fhzYF6ipa9T"
-          link="https://www.linkedin.com/in/anshita-yadav-a4748a213/"
+          img={riya}
+          link="https://www.linkedin.com/in/ria-pundir-9390a89b/"
         />
         <Mentors
           name="Akshat Mittal"
-          img="https://drive.google.com/uc?export=view&id=1psE2RSinJb23jt-EKBgJ4fhzYF6ipa9T"
-          link="https://www.linkedin.com/in/anshita-yadav-a4748a213/"
+          img={akshat}
+          link="https://www.linkedin.com/in/akshat-m-002965120/"
         />
         <Mentors
           name="Harshit Bhardwaj"
-          img="https://drive.google.com/uc?export=view&id=1psE2RSinJb23jt-EKBgJ4fhzYF6ipa9T"
-          link="https://www.linkedin.com/in/anshita-yadav-a4748a213/"
+          img={harshit}
+          link="https://www.linkedin.com/in/harshitbhardwaj-/"
         />
         <Mentors
           name="Aryan Bansal"
-          img="https://drive.google.com/uc?export=view&id=1psE2RSinJb23jt-EKBgJ4fhzYF6ipa9T"
-          link="https://www.linkedin.com/in/anshita-yadav-a4748a213/"
+          img={aryan}
+          link="https://www.linkedin.com/in/aryan-bansal-474295170/"
         />
         <Mentors
           name="Siddhant Chaudhary"
-          img="https://drive.google.com/uc?export=view&id=1psE2RSinJb23jt-EKBgJ4fhzYF6ipa9T"
+          img={sid}
           link="https://www.linkedin.com/in/anshita-yadav-a4748a213/"
         />
         <Mentors
           name="Utkarsh Singh"
-          img="https://drive.google.com/uc?export=view&id=1psE2RSinJb23jt-EKBgJ4fhzYF6ipa9T"
+          img={us}
           link="https://www.linkedin.com/in/anshita-yadav-a4748a213/"
         />
       </div>
@@ -775,49 +809,19 @@ export const compdata = [
     mentors: (
       <div className="all-mentors-cards">
         <Mentors
-          name="Shalini Rajput"
-          img="https://drive.google.com/uc?export=view&id=1psE2RSinJb23jt-EKBgJ4fhzYF6ipa9T"
-          link="https://www.linkedin.com/in/anshita-yadav-a4748a213/"
-        />
-        <Mentors
-          name="Anoop Singh"
-          img="https://drive.google.com/uc?export=view&id=1psE2RSinJb23jt-EKBgJ4fhzYF6ipa9T"
-          link="https://www.linkedin.com/in/anshita-yadav-a4748a213/"
-        />
-        <Mentors
-          name="Ujjwal Tomar"
-          img="https://drive.google.com/uc?export=view&id=1psE2RSinJb23jt-EKBgJ4fhzYF6ipa9T"
-          link="https://www.linkedin.com/in/anshita-yadav-a4748a213/"
-        />
-        <Mentors
-          name="Prakhar Khetan"
-          img="https://drive.google.com/uc?export=view&id=1psE2RSinJb23jt-EKBgJ4fhzYF6ipa9T"
-          link="https://www.linkedin.com/in/anshita-yadav-a4748a213/"
-        />
-        <Mentors
-          name="Deepanshu Chaudhary"
-          img="https://drive.google.com/uc?export=view&id=1psE2RSinJb23jt-EKBgJ4fhzYF6ipa9T"
-          link="https://www.linkedin.com/in/anshita-yadav-a4748a213/"
-        />
-        <Mentors
-          name="Abhishek Singh"
-          img="https://drive.google.com/uc?export=view&id=1psE2RSinJb23jt-EKBgJ4fhzYF6ipa9T"
-          link="https://www.linkedin.com/in/anshita-yadav-a4748a213/"
-        />
-        <Mentors
-          name="Rohit Singhwal"
-          img="https://drive.google.com/uc?export=view&id=1psE2RSinJb23jt-EKBgJ4fhzYF6ipa9T"
-          link="https://www.linkedin.com/in/anshita-yadav-a4748a213/"
-        />
-        <Mentors
           name="Yash Suri"
-          img="https://drive.google.com/uc?export=view&id=1psE2RSinJb23jt-EKBgJ4fhzYF6ipa9T"
-          link="https://www.linkedin.com/in/anshita-yadav-a4748a213/"
+          img={yashS}
+          link="https://www.linkedin.com/in/yashsuri23/"
         />
         <Mentors
           name="Shruti Singh"
-          img="https://drive.google.com/uc?export=view&id=1psE2RSinJb23jt-EKBgJ4fhzYF6ipa9T"
-          link="https://www.linkedin.com/in/anshita-yadav-a4748a213/"
+          img={ss}
+          link="https://www.linkedin.com/in/shruti-singh-7ba9031b1/"
+        />
+        <Mentors
+          name="Rohit Singhwal"
+          img={rohit}
+          link="https://www.linkedin.com/in/rohit-singh-bb1a6020a/"
         />
       </div>
     ),
@@ -925,49 +929,14 @@ export const compdata = [
     mentors: (
       <div className="all-mentors-cards">
         <Mentors
-          name="Shalini Rajput"
-          img="https://drive.google.com/uc?export=view&id=1psE2RSinJb23jt-EKBgJ4fhzYF6ipa9T"
-          link="https://www.linkedin.com/in/anshita-yadav-a4748a213/"
-        />
-        <Mentors
-          name="Anoop Singh"
-          img="https://drive.google.com/uc?export=view&id=1psE2RSinJb23jt-EKBgJ4fhzYF6ipa9T"
-          link="https://www.linkedin.com/in/anshita-yadav-a4748a213/"
-        />
-        <Mentors
-          name="Ujjwal Tomar"
-          img="https://drive.google.com/uc?export=view&id=1psE2RSinJb23jt-EKBgJ4fhzYF6ipa9T"
-          link="https://www.linkedin.com/in/anshita-yadav-a4748a213/"
-        />
-        <Mentors
-          name="Prakhar Khetan"
-          img="https://drive.google.com/uc?export=view&id=1psE2RSinJb23jt-EKBgJ4fhzYF6ipa9T"
-          link="https://www.linkedin.com/in/anshita-yadav-a4748a213/"
-        />
-        <Mentors
-          name="Deepanshu Chaudhary"
-          img="https://drive.google.com/uc?export=view&id=1psE2RSinJb23jt-EKBgJ4fhzYF6ipa9T"
-          link="https://www.linkedin.com/in/anshita-yadav-a4748a213/"
-        />
-        <Mentors
-          name="Abhishek Singh"
-          img="https://drive.google.com/uc?export=view&id=1psE2RSinJb23jt-EKBgJ4fhzYF6ipa9T"
-          link="https://www.linkedin.com/in/anshita-yadav-a4748a213/"
-        />
-        <Mentors
-          name="Rohit Singhwal"
-          img="https://drive.google.com/uc?export=view&id=1psE2RSinJb23jt-EKBgJ4fhzYF6ipa9T"
-          link="https://www.linkedin.com/in/anshita-yadav-a4748a213/"
-        />
-        <Mentors
           name="Yash Suri"
-          img="https://drive.google.com/uc?export=view&id=1psE2RSinJb23jt-EKBgJ4fhzYF6ipa9T"
-          link="https://www.linkedin.com/in/anshita-yadav-a4748a213/"
+          img={yashS}
+          link="https://www.linkedin.com/in/yashsuri23/"
         />
         <Mentors
           name="Shruti Singh"
-          img="https://drive.google.com/uc?export=view&id=1psE2RSinJb23jt-EKBgJ4fhzYF6ipa9T"
-          link="https://www.linkedin.com/in/anshita-yadav-a4748a213/"
+          img={ss}
+          link="https://www.linkedin.com/in/shruti-singh-7ba9031b1/"
         />
       </div>
     ),

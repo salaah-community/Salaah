@@ -5,7 +5,8 @@ import "../../styles/Page.css";
 import Footer from "../../components/Footer";
 import HomeLast from "../../components/HomeLast";
 import AnimatedCursor from "react-animated-cursor";
-
+import Mentors from "../Company/mentors";
+import kashika from "../../assets/kashika.jpg"
 const CulturePg = () => {
   return (
     <>
@@ -99,6 +100,15 @@ const CulturePg = () => {
         >
           Our Mentors
         </h3>
+        <div className="container">
+          <Mentors
+            name="Ms. Kashika"
+            img={kashika}
+            link="https://www.linkedin.com"
+          />
+        </div>
+        <HomeLast />
+        <Footer />
       </div>
     </>
   );

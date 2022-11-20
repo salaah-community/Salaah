@@ -44,7 +44,7 @@ const Footer = () => {
                 <Link to="/contact">Contact</Link>
               </li>
               <li>
-                <Link to="">Privacy Policy</Link>
+                <Link to="/team">Our Team</Link>
               </li>
               <ul style={{ display: "flex" }}>
                 <motion.li
@@ -94,7 +94,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link to="/opportunities/culture">Cultural</Link>
-              </li>
+              </li>              
             </ul>
           </div>
           <div className="col last">

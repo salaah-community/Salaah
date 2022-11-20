@@ -5,7 +5,8 @@ import "../../styles/Page.css";
 import Footer from "../../components/Footer";
 import HomeLast from "../../components/HomeLast";
 import AnimatedCursor from "react-animated-cursor";
-
+import Mentors from "../Company/mentors";
+import shwet from "../../assets/shwetsir.jpeg"
 const DefencePage = () => {
   return (
     <>
@@ -22,7 +23,12 @@ const DefencePage = () => {
       />
 
       <Navbar />
-      <div style={{ backgroundColor: "rgba(68, 68, 68, 0.4)", fontFamily: 'Poppins' }}>
+      <div
+        style={{
+          backgroundColor: "rgba(68, 68, 68, 0.4)",
+          fontFamily: "Poppins",
+        }}
+      >
         <img
           src="https://wallpapercave.com/wp/wp7148895.jpg"
           alt=""
@@ -43,7 +49,8 @@ const DefencePage = () => {
           The two exams for the defense sector that can be taken after
           graduation: <br />
           CDS (Combined Defence Services Exam) and AFCAT (Air Force Common
-          Admission Test). <br /> We'll be covering CDS examination in this article.
+          Admission Test). <br /> We'll be covering CDS examination in this
+          article.
           <br />
           <br />
           <h2>CDS Exam</h2>
@@ -146,6 +153,15 @@ const DefencePage = () => {
         >
           Our Mentors
         </h3>
+        <div className="container">
+          <Mentors
+            name="Mr. Shwet"
+            img={shwet}
+            link="https://www.linkedin.com"
+          />
+        </div>
+        <HomeLast />
+        <Footer />
       </div>
     </>
   );

@@ -5,7 +5,8 @@ import "../../styles/Page.css";
 import Footer from "../../components/Footer";
 import HomeLast from "../../components/HomeLast";
 import AnimatedCursor from "react-animated-cursor";
-
+import Mentors from "../Company/mentors";
+import mohit from "../../assets/mohit.jpeg"
 const HrPage = () => {
   return (
     <>
@@ -126,6 +127,15 @@ const HrPage = () => {
           >
             Our Mentors
           </h3>
+          <div className="">
+          <Mentors
+            name="Mr. Mohit"
+            img={mohit}
+            link="https://www.linkedin.com"
+          />
+        </div>
+        <HomeLast />
+        <Footer />
         </div>
       </div>
     </>
