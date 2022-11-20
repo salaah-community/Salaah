@@ -1,0 +1,28 @@
+.css-1elwnq4-MuiPaper-root-MuiAccordion-root.Mui-expanded:last-of-type {
+    margin-bottom: 1rem!important;
+}
+.faq-accordion{
+    margin-bottom: 1rem;
+}
+.help-text{
+    text-align: center;
+    font-size: 6rem;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+
+.help-para-text{
+    text-align: center;
+    margin: auto;
+    width: 35%;
+}
+
+@media screen and (max-width: 600px){
+    .help-text{
+      font-size: 3rem;
+    }  
+    .help-para-text{
+        width: 80%;
+        margin-top: 2rem;
+    }
+}

@@ -1,0 +1,16 @@
+@media screen and (max-width: 800px) {
+    .homeLast{
+        margin-top: 7rem;
+        display: flex;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 450px) {
+    .homeLast{
+        display: grid;
+        grid-template-columns: auto;        
+    }
+    .homeLast .right__side{        
+        text-align: center;
+    }
+}
