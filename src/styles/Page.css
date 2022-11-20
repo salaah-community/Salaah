@@ -4,7 +4,7 @@
 } */
 .all-mentors-cards{
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: auto auto auto;
   gap: 3rem;
 }
  .hero-comp-img{
@@ -95,11 +95,27 @@
     gap: 1.2rem;
   }
 }
+@media screen and (max-width: 1300px) {
+  .all-mentors-cards{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 3rem;
+  }
+}
 
 @media screen and (max-width: 710px) {
   .try {
     grid-template-columns: 1fr;
     gap: 1rem;
+  }
+  
+}
+
+@media screen and (max-width: 800px) {
+  .all-mentors-cards{
+    display: grid;
+    grid-template-columns: auto;
+    gap: 3rem;
   }
 }
 

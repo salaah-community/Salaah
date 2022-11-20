@@ -128,7 +128,7 @@ function Navbar() {
           </motion.li>
           
           <li className="nav-item">
-            <NavLink to="/faq" className="nav-links" onClick={closeMobileMenu}>
+            <NavLink to="/team" className="nav-links" onClick={closeMobileMenu}>
               Our Team
             </NavLink>
           </li>
