@@ -30,48 +30,48 @@ export const teamBoard = [
     },
     {        
         name: 'Ms. Sakshi Verma',
-        title: 'Content Department',
+        title: 'Salaah Governing Committee',
         img: sakshi
     },    
  {        
         name: 'Ms. Shruti Singh',
-        title: 'Graphics Department',
+        title: 'Salaah Governing Committee',
         img: shruti
     },
  
  {        
         name: 'Mr. Utkarsh Goel',
-        title: 'Technical Department',
+        title: 'Salaah Governing Committee',
         img: utkarshG
     },
  {        
         name: 'Mr. Rohit Choudhary',
-        title: 'Technical Department',
+        title: 'Salaah Governing Committee',
         img: rohitCH
     },
  {        
         name: 'Ms. Rashmi Singh',
-        title: 'Technical Department',
+        title: 'Salaah Governing Committee',
         img: rashmi
     },
  {        
         name: 'Ms. Aarushi Rai',
-        title: 'Technical Department',
+        title: 'Salaah Governing Committee',
         img: aarushi
     },
  {        
         name: 'Mr. Siddhant Singh',
-        title: 'Outreach Department',
+        title: 'Salaah Governing Committee',
         img: siddhant
     },
  {        
         name: 'Mr. Yash Suri',
-        title: 'Planning & Strategy Department',
+        title: 'Salaah Governing Committee',
         img: yashsuri
     },
  {        
         name: 'Ms. Vritti Mehrotra',
-        title: 'Oration Department',
+        title: 'Salaah Governing Committee',
         img: vrittimehrotra
     },
 ]
