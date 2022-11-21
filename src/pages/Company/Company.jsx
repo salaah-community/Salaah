@@ -14,7 +14,7 @@ import IMG6 from "../../assets/tcs-logo.png";
 import IMG7 from "../../assets/new-cogni-logo.png";
 import IMG8 from "../../assets/capg-logo.png";
 import IMG9 from "../../assets/accenture-logo.png";
-import AnimatedCursor from "react-animated-cursor";
+// import AnimatedCursor from "react-animated-cursor";
 import { type } from "@testing-library/user-event/dist/type";
 
 const data = [
@@ -78,7 +78,7 @@ const data = [
 const Company = () => {
   return (
     <>
-      <AnimatedCursor
+      {/* <AnimatedCursor
         color="255,255,255"
         innerSize={8}
         outerSize={35}
@@ -88,7 +88,7 @@ const Company = () => {
         outerStyle={{
           border: "3px solid #fff",
         }}
-      />
+      /> */}
       <Navbar />
       <motion.div
         animate={{ y: 0, opacity: 1, type: "spring" }}

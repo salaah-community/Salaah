@@ -5,7 +5,7 @@ import Navbar from "../../components/Navbar";
 import "../../styles/Page.css";
 import Footer from "../../components/Footer";
 import HomeLast from "../../components/HomeLast";
-import AnimatedCursor from "react-animated-cursor";
+// import AnimatedCursor from "react-animated-cursor";
 
 const Page = () => {
   const { id } = useParams();
@@ -21,7 +21,7 @@ const Page = () => {
   return (
     <>
       <div>
-      <AnimatedCursor
+      {/* <AnimatedCursor
         color="255,255,255"
         innerSize={8}
         outerSize={35}
@@ -31,7 +31,7 @@ const Page = () => {
         outerStyle={{
           border: '3px solid #fff',
         }}
-        />
+        /> */}
         
         <Navbar />
       </div>

@@ -16,7 +16,7 @@ import one from "../assets/car1.jpg";
 import two from "../assets/car2.jpg";
 import three from "../assets/car3.jpg";
 import four from "../assets/car4.jpg";
-import AnimatedCursor from "react-animated-cursor";
+// import AnimatedCursor from "react-animated-cursor";
 
 const itemData = [
   {
@@ -246,7 +246,7 @@ const MasonryGallery = () => {
     <>
     
     <div>
-    <AnimatedCursor
+    {/* <AnimatedCursor
         color="255,255,255"
         innerSize={8}
         outerSize={35}
@@ -256,7 +256,7 @@ const MasonryGallery = () => {
         outerStyle={{
           border: '3px solid #fff',
         }}
-        />
+        /> */}
       <Navbar />
       <motion.div className="gallery-page" initial={{ y: 310 }}
     animate={{ y: 0 }}

@@ -11,7 +11,6 @@ import Defence from './pages/Defence/Defence';
 import CulturePg from './pages/Culture/CulturePg'
 import Culture from './pages/Culture/Culture';
 import Team from './pages/Team/Team'
-import Babbar from './components/Babbar'
 import Hr from "./pages/hr/Hr";
 import HrPage from "./pages/hr/HrPg.js";
 import Startup from "./pages/startup/Startup";
@@ -34,9 +33,6 @@ function App() {
         </Routes>
         <Routes>
           <Route path='/opportunities/defence' element={<Defence/>} />
-        </Routes>
-        <Routes>
-          <Route path='/Babbar' element={<Babbar/>} />
         </Routes>
         <Routes>
           <Route path='/opportunities/culture' element={<Culture/>} />

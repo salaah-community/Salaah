@@ -9,7 +9,7 @@ import "../styles/Faq.css";
 import Footer from "../components/Footer";
 import FaqLast from "../components/FaqLast.jsx";
 import { motion } from "framer-motion";
-import AnimatedCursor from "react-animated-cursor";
+// import AnimatedCursor from "react-animated-cursor";
 
 const faqData = [
   {
@@ -47,7 +47,7 @@ const faqData = [
 const Faq = () => {
   return (
     <div>
-      <AnimatedCursor
+      {/* <AnimatedCursor
         color="255,255,255"
         innerSize={8}
         outerSize={35}
@@ -57,7 +57,7 @@ const Faq = () => {
         outerStyle={{
           border: "3px solid #fff",
         }}
-      />
+      /> */}
       <Navbar />
       <motion.div
         initial={{ y: 310 }}

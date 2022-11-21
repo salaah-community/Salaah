@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 
 import IMG1 from "../../assets/soldier (2).png";
 
-import AnimatedCursor from "react-animated-cursor";
+// import AnimatedCursor from "react-animated-cursor";
 import { type } from "@testing-library/user-event/dist/type";
 
 const data = [
@@ -23,7 +23,7 @@ const data = [
 const Defence = () => {
   return (
     <>
-      <AnimatedCursor
+      {/* <AnimatedCursor
         color="255,255,255"
         innerSize={8}
         outerSize={35}
@@ -33,7 +33,7 @@ const Defence = () => {
         outerStyle={{
           border: "3px solid #fff",
         }}
-      />
+      /> */}
       <Navbar />
       <motion.div
         animate={{ y: 0, opacity: 1, type: "spring" }}

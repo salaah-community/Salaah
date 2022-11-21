@@ -4,7 +4,7 @@ import Navbar from "../components/Navbar.jsx";
 import Footer from "../components/Footer.jsx";
 import { useRef } from "react";
 import emailjs from '@emailjs/browser';
-import AnimatedCursor from "react-animated-cursor";
+// import AnimatedCursor from "react-animated-cursor";
 import {motion} from 'framer-motion'
 
 const Contact = () => {
@@ -23,7 +23,7 @@ const Contact = () => {
 
   return (
     <>
-    <AnimatedCursor
+    {/* <AnimatedCursor
         color="255,255,255"
         innerSize={8}
         outerSize={35}
@@ -33,7 +33,7 @@ const Contact = () => {
         outerStyle={{
           border: '3px solid #fff',
         }}
-        />
+        /> */}
       <Navbar />
       <motion.div className="contact-page" animate={{ y: 0, opacity: 1, type: "spring"}} initial={{ opacity: 0.6, y: 310 }}
       transition={{ ease: [0.6, 0.01, -0.05, 0.9], duration: 1 }}>

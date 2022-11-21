@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-import AnimatedCursor from "react-animated-cursor";
+// import AnimatedCursor from "react-animated-cursor";
 import Navbar from "../components/Navbar.jsx";
 import Footer from "../components/Footer.jsx";
 import "./Opportunity.css";
@@ -58,7 +58,7 @@ const data = [
 const Opportunity = () => {
   return (
     <div>
-      <AnimatedCursor
+      {/* <AnimatedCursor
         color="255,255,255"
         innerSize={8}
         outerSize={35}
@@ -68,7 +68,7 @@ const Opportunity = () => {
         outerStyle={{
           border: "3px solid #fff",
         }}
-      />
+      /> */}
       <Navbar />
       <motion.div
         initial={{ y: 310 }}

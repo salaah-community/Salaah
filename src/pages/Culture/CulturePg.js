@@ -4,13 +4,13 @@ import Navbar from "../../components/Navbar";
 import "../../styles/Page.css";
 import Footer from "../../components/Footer";
 import HomeLast from "../../components/HomeLast";
-import AnimatedCursor from "react-animated-cursor";
+// import AnimatedCursor from "react-animated-cursor";
 import Mentors from "../Company/mentors";
 import kashika from "../../assets/kashika.jpg"
 const CulturePg = () => {
   return (
     <>
-      <AnimatedCursor
+      {/* <AnimatedCursor
         color="255,255,255"
         innerSize={8}
         outerSize={35}
@@ -20,7 +20,7 @@ const CulturePg = () => {
         outerStyle={{
           border: "3px solid #fff",
         }}
-      />
+      /> */}
 
       <Navbar />
       <div

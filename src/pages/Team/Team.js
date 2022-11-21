@@ -1,6 +1,6 @@
 import React from "react";
 import TeamCards from "./TeamCards";
-import AnimatedCursor from "react-animated-cursor";
+// import AnimatedCursor from "react-animated-cursor";
 import "./Team.css";
 import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
@@ -16,7 +16,7 @@ import TeamList from "./TeamList";
 const Team = () => {
   return (
     <div>
-      <AnimatedCursor
+      {/* <AnimatedCursor
         color="255,255,255"
         innerSize={8}
         outerSize={35}
@@ -26,7 +26,7 @@ const Team = () => {
         outerStyle={{
           border: "3px solid #fff",
         }}
-      />
+      /> */}
       <Navbar />
       <motion.div
         initial={{ y: 310 }}
