@@ -4,7 +4,7 @@ import prabhat from '../../../assets/team/prabhat2.jpeg'
 
 export const teamHeads = [
     {        
-        name: 'Sri Sachin Kumar Goel',
+        name: 'Sh. Sachin Kumar Goel',
         title: 'Salaah Convener & VP-ABESEC',
         img: sachin
     },
