@@ -252,7 +252,7 @@ export const compdata = [
         />
       </div>
     ),
-    company: "Golman Sachs",
+    company: "Goldman Sachs",
     cover: IMG3,
     alum__img: "",
     alum__name: "",
