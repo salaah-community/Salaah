@@ -29,7 +29,7 @@ const data = [
   {
     avatar: AVTR2,
     name: "Varun Rana",
-    comp: "Founder @salaah",
+    comp: "Co-Founder @salaah",
     review:
       '"We form a community under the association of recent pass out senior who is part of big MNCs  and senior who is being passionate to achieve their goals in life. "',
   },
