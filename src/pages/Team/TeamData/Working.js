@@ -149,6 +149,11 @@ export const teamWorking = [
         title: 'Technical Working Member',
         img: ''
     },
+    {        
+        name: 'Mr. Vivek Kumar Tiwari',
+        title: 'Technical Working Member',
+        img: ''
+    },
 {        
         name: 'Ms. Tanisha Bhatt',
         title: 'Technical Working Member',
