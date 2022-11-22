@@ -5,7 +5,7 @@ import Footer from "../../components/Footer";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
-import IMG1 from "../../assets/mohitMisra.jpg";
+import IMG1 from "../../assets/mohitMisra.jpeg";
 
 // import AnimatedCursor from "react-animated-cursor";
 import { type } from "@testing-library/user-event/dist/type";
