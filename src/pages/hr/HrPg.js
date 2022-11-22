@@ -6,7 +6,7 @@ import Footer from "../../components/Footer";
 import HomeLast from "../../components/HomeLast";
 // import AnimatedCursor from "react-animated-cursor";
 import Mentors from "../Company/mentors";
-import mohit from "../../assets/mohit.jpeg"
+import mohit from "../../assets/mohitMisra.jpeg"
 const HrPage = () => {
   return (
     <>
