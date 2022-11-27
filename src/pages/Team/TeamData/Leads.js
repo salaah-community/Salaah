@@ -65,7 +65,7 @@ export const teamLeads = [
         img: yash
     },
 {        
-        name: 'Mr. Amar Jyoti',
+        name: 'Mr. Amar Jyothi',
         title: 'Technical Head',
         img: amar
     },
