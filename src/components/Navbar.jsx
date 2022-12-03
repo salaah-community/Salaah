@@ -94,12 +94,30 @@ function Navbar() {
           onClick={closeMobileMenu}
         />
         <ul className={click ? "nav-menu active" : "nav-menu"}>
-          <li className="nav-item">
+         <motion.li
+            className="nav-item"
+            initial={{ opacity: 0.6 }}
+            whileHover={{
+              scale: 1.2,
+              transition: { duration: 0.5 },
+            }}
+            whileTap={{ scale: 0.9 }}
+            whileInView={{ opacity: 1 }}
+          >
             <NavLink to="/" className="nav-links" onClick={closeMobileMenu}>
               Home
             </NavLink>
-          </li>
-          <li className="nav-item">
+          </motion.li>
+          <motion.li
+            className="nav-item"
+            initial={{ opacity: 0.6 }}
+            whileHover={{
+              scale: 1.2,
+              transition: { duration: 0.5 },
+            }}
+            whileTap={{ scale: 0.9 }}
+            whileInView={{ opacity: 1 }}
+          >
             <NavLink
               to="/gallery"
               className="nav-links"
@@ -107,7 +125,7 @@ function Navbar() {
             >
               Gallery
             </NavLink>
-          </li>
+          </motion.li>
           <motion.li
             className="nav-item"
             initial={{ opacity: 0.6 }}
@@ -120,24 +138,51 @@ function Navbar() {
           >
             <NavLink
               to="/opportunities"
-              className="btn nav-links"
+              className="nav-links"
               onClick={closeMobileMenu}
             >
               Career Tracks
             </NavLink>
           </motion.li>
           
-          <li className="nav-item">
+          <motion.li
+            className="nav-item"
+            initial={{ opacity: 0.6 }}
+            whileHover={{
+              scale: 1.2,
+              transition: { duration: 0.5 },
+            }}
+            whileTap={{ scale: 0.9 }}
+            whileInView={{ opacity: 1 }}
+          >
             <NavLink to="/team" className="nav-links" onClick={closeMobileMenu}>
               Our Team
             </NavLink>
-          </li>
-          <li className="nav-item">
+          </motion.li>
+          <motion.li
+            className="nav-item"
+            initial={{ opacity: 0.6 }}
+            whileHover={{
+              scale: 1.2,
+              transition: { duration: 0.5 },
+            }}
+            whileTap={{ scale: 0.9 }}
+            whileInView={{ opacity: 1 }}
+          >
             <NavLink to="/faq" className="nav-links" onClick={closeMobileMenu}>
               Faq's
-            </NavLink>
-          </li>
-          <li className="nav-item">
+            </NavLink> 
+          </motion.li>
+          <motion.li
+            className="nav-item"
+            initial={{ opacity: 0.6 }}
+            whileHover={{
+              scale: 1.2,
+              transition: { duration: 0.5 },
+            }}
+            whileTap={{ scale: 0.9 }}
+            whileInView={{ opacity: 1 }}
+          >
             <NavLink
               to="/contact"
               className="nav-links"
@@ -145,7 +190,8 @@ function Navbar() {
             >
               Contact Us
             </NavLink>
-          </li>
+          </motion.li>
+          
           
         </ul>
         <div className="menu-icon" onClick={handleClick}>
