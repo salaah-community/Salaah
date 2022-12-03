@@ -77,16 +77,22 @@ a {
   }
 
   .nav-menu {
-    display: flex;
+ display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 85%;
     height: 90vh;
     position: absolute;
     top: 80px;
     left: -100%;
     opacity: 1;
     transition: all 0.5s ease;
+    justify-content: start;
+    overflow: scroll;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 16px;
   }
+
 
   .nav-menu.active {
     background: #000;
