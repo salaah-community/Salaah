@@ -66,7 +66,7 @@ const Culture = () => {
                   <div class="overlay">
                     <div class="company_box_text">
                       <br />
-                      <Link to = {`/defence/${id}`}
+                      <Link to = {`/culture/${id}`}
                         className="btn btn-primary"
                         style={{ fontSize: "0.8rem"}}
                       >
