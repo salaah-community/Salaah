@@ -414,26 +414,19 @@ export const compdata = [
     jd: "Job Profile: Infosys SDE Intern",
     process: (
       <div>
-//         In general, you must meet Infosys' academic requirements in order to
-//         apply. For classes 10, 12, and graduation, students must earn at least
-//         60 percent of the possible points. <br /> <br /> After that, the
-//         qualified applicants must proceed through Infosys' three recruiting
-//         phases, which include: <br />
-//         <ul>
-//           <li>
-//             <b>• Online Evaluation Test</b>
-//           </li>
-//           <li>
-//             <b>• HR Interview</b>
-//           </li>
-//           <li>
-//             <b>• Technical Interview</b>
-//           </li>
-//         </ul>
-//         <br />
-        The hiring procedure is the same for experienced applicants as well.
-        However, for some crucial positions, you might need to go through two or
-        more rounds of technical interviews before an HR interview. <br />
+        
+        <ul>
+          <li>
+            <b>• Online Evaluation Test</b>
+          </li>
+          <li>
+            <b>• HR Interview</b>
+          </li>
+          <li>
+            <b>• Technical Interview</b>
+          </li>
+        </ul>
+        <br />
         <br />
       {/* -----------------------------------------<AJ>------------------------------------------------------ */}
         <h2>InfyTQ</h2>
