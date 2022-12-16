@@ -20,11 +20,6 @@ export const teamWorking = [
         img: ''
     },
 {        
-        name: 'Ms. Harshita Tyagi',
-        title: 'Oration Working Member',
-        img: ''
-    },
-{        
         name: 'Mr. Shivam Tyagi',
         title: 'Oration Working Member',
         img: ''
@@ -66,6 +61,11 @@ export const teamWorking = [
     },
 {        
         name: 'Mr. Harsh Jadoun',
+        title: 'Planning & Strategy Working Member',
+        img: ''
+    },
+{        
+        name: 'Ms. Saijal Sawhney',
         title: 'Planning & Strategy Working Member',
         img: ''
     },
