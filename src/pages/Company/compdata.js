@@ -477,7 +477,6 @@ export const compdata = [
         <br/>
 
       {/* ------------------------------------------<AJ>----------------------------------------------------- */}
-//         
         <h2>HR Interview</h2>
         <br />
         If you pass the technical interview, you will be invited to the HR
