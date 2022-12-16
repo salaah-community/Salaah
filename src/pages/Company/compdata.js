@@ -476,44 +476,44 @@ export const compdata = [
 
         <br/>
 
-      {/* ------------------------------------------<AJ>----------------------------------------------------- */}
-//         <h2>Online Assessment</h2>
-//         <br />
-//         The three portions of the online assessment exam each have time
-//         constraints and cutoffs. The online assessment test has three portions,
-//         including these: <br /> <br />
-//         <b>Logical and Analytical Reasoning</b>: Questions in this area range in
-//         difficulty from easy to somewhat difficult and are based on concepts
-//         like data sufficiency, data interpretation, visual reasoning, statement
-//         reasoning, syllogism, etc. <br /> <br />
-//         <b>Quantitative aptitude</b>: Questions in this area range in complexity
-//         from moderate to high and cover topics like time, permutations and
-//         combinations, speed and distance, number series, analytical puzzles,
-//         formulas, algebra, probability, etc. <br />
-//         <br />
-//         <b>Verbal Ability</b>: In this round, you may anticipate vocabulary
-//         questions, fill-in-the-blanks, completion of paragraphs, sentence
-//         correction, and more. The number of inquiries and the amount of time
-//         allotted for the aforementioned parts in this round may change depending
-//         on the interviews.
-//         <br />
-//         <br />
-//         <h2>Technical Interview</h2>
-//         <br />
-//         You will be contacted for a technical interview if you pass the online
-//         assessment test. During this stage, questions based on the candidates'
-//         resumes and areas of interest are often posed. Computer foundations
-//         including operating systems, data structures, and algorithms, as well as
-//         understanding of the most recent developing technologies, are some other
-//         factors that might help you earn a decent score in this round. You are
-//         required to have some solid knowledge of at least one programming
-//         language. You must decide on and be ready for a subject of interest that
-//         is directly relevant to the position. Your ability to solve problems may
-//         occasionally be evaluated in this round, possibly through puzzles and
-//         aptitude tests. Additionally, be prepared to respond to inquiries about
-//         your projects and/or internships.
-//         <br />
-//         <br />
+      
+<h2>Online Assessment</h2>
+         <br />
+         The three portions of the online assessment exam each have time
+         constraints and cutoffs. The online assessment test has three portions,
+         including these: <br /> <br />
+         <b>Logical and Analytical Reasoning</b>: Questions in this area range in
+         difficulty from easy to somewhat difficult and are based on concepts
+         like data sufficiency, data interpretation, visual reasoning, statement
+         reasoning, syllogism, etc. <br /> <br />
+         <b>Quantitative aptitude</b>: Questions in this area range in complexity
+         from moderate to high and cover topics like time, permutations and
+         combinations, speed and distance, number series, analytical puzzles,
+         formulas, algebra, probability, etc. <br />
+         <br />
+         <b>Verbal Ability</b>: In this round, you may anticipate vocabulary
+         questions, fill-in-the-blanks, completion of paragraphs, sentence
+         correction, and more. The number of inquiries and the amount of time
+         allotted for the aforementioned parts in this round may change depending
+         on the interviews.
+         <br />
+         <br />
+         <h2>Technical Interview</h2>
+         <br />
+         You will be contacted for a technical interview if you pass the online
+         assessment test. During this stage, questions based on the candidates'
+         resumes and areas of interest are often posed. Computer foundations
+         including operating systems, data structures, and algorithms, as well as
+         understanding of the most recent developing technologies, are some other
+         factors that might help you earn a decent score in this round. You are
+         required to have some solid knowledge of at least one programming
+         language. You must decide on and be ready for a subject of interest that
+         is directly relevant to the position. Your ability to solve problems may
+         occasionally be evaluated in this round, possibly through puzzles and
+         aptitude tests. Additionally, be prepared to respond to inquiries about
+         your projects and/or internships.
+         <br />
+         <br />
         <h2>HR Interview</h2>
         <br />
         If you pass the technical interview, you will be invited to the HR
