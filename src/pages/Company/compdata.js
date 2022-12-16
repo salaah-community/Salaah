@@ -428,7 +428,7 @@ export const compdata = [
         </ul>
         <br />
         <br />
-      {/* -----------------------------------------<AJ>------------------------------------------------------ */}
+      
         <h2>InfyTQ</h2>
         <br/>
         InfyTQ is a free platform open to all engineering students in their third and fourth year across India. This Infosys Certification will test your knowledge in programming and databases. Infosys started taking the InfyTQ exam to recruit students for Infosys Certification Program.
@@ -451,7 +451,7 @@ export const compdata = [
         or more in the Certification round and after going through the necessary checks, you will become eligible to appear in a behavioral interview on the same day. If you
         clear the interview, you will receive an offer for the role of Systems Engineer and become an Infosys Certified Software Programmer.
         <br/><br/>
-        <b> • Adwantage Round: </b>
+        <b> • Advantage Round: </b>
         This is an optional round for those who clear the Certification Round to gain an advantage and win a job opportunity for niche technical roles of
         Specialist Programmer and Digital Specialist Engineer at Infosys. If you decide to go through this round, you will have to take a test that will assess your programming
         and other technical skills. You will have the option to take this test in a programming language from multiple options. If you clear the round, you will receive a pre-
@@ -471,49 +471,7 @@ export const compdata = [
             <p>• Complete the recommended learning journey to gain a headstart in your preparation for the examinations.</p>
           </li>
         </ul>
-
-
-
         <br/>
-
-      
-<h2>Online Assessment</h2>
-         <br />
-         The three portions of the online assessment exam each have time
-         constraints and cutoffs. The online assessment test has three portions,
-         including these: <br /> <br />
-         <b>Logical and Analytical Reasoning</b>: Questions in this area range in
-         difficulty from easy to somewhat difficult and are based on concepts
-         like data sufficiency, data interpretation, visual reasoning, statement
-         reasoning, syllogism, etc. <br /> <br />
-         <b>Quantitative aptitude</b>: Questions in this area range in complexity
-         from moderate to high and cover topics like time, permutations and
-         combinations, speed and distance, number series, analytical puzzles,
-         formulas, algebra, probability, etc. <br />
-         <br />
-         <b>Verbal Ability</b>: In this round, you may anticipate vocabulary
-         questions, fill-in-the-blanks, completion of paragraphs, sentence
-         correction, and more. The number of inquiries and the amount of time
-         allotted for the aforementioned parts in this round may change depending
-         on the interviews.
-         <br />
-         <br />
-         <h2>Technical Interview</h2>
-         <br />
-         You will be contacted for a technical interview if you pass the online
-         assessment test. During this stage, questions based on the candidates'
-         resumes and areas of interest are often posed. Computer foundations
-         including operating systems, data structures, and algorithms, as well as
-         understanding of the most recent developing technologies, are some other
-         factors that might help you earn a decent score in this round. You are
-         required to have some solid knowledge of at least one programming
-         language. You must decide on and be ready for a subject of interest that
-         is directly relevant to the position. Your ability to solve problems may
-         occasionally be evaluated in this round, possibly through puzzles and
-         aptitude tests. Additionally, be prepared to respond to inquiries about
-         your projects and/or internships.
-         <br />
-         <br />
         <h2>HR Interview</h2>
         <br />
         If you pass the technical interview, you will be invited to the HR
