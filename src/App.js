@@ -15,6 +15,8 @@ import Hr from "./pages/hr/Hr";
 import HrPage from "./pages/hr/HrPg.js";
 import Startup from "./pages/startup/Startup";
 import StartupPage from "./pages/startup/StartupPg.js";
+import Hackathon from "./components/hackathon/Hackathon"
+import Hackathon_Page from "./components/hackathon/Hackathon_Page"
 function App() {
   return (
     <div className="App">
@@ -66,6 +68,12 @@ function App() {
         </Routes>
         <Routes>
         <Route path='/culture/1' element={<CulturePg/>} />
+        </Routes>
+        <Routes>
+        <Route path='/hackathon' element={<Hackathon/>}/>
+        </Routes>
+        <Routes>
+        <Route path='/hackathon/:id' element={<Hackathon_Page/>} />
         </Routes>
       </BrowserRouter>
     </div>
