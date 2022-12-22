@@ -71,6 +71,7 @@ a, Link{
   }
   #titleTrack{
     margin-top: 1rem;
+    font-size: 0.8rem;
   }
 }
 @media screen and (max-width: 770px) {

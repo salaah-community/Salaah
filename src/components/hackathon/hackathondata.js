@@ -616,8 +616,7 @@ export const hackathondata = [
             impact, user experience, and potential for future work progression.
             <br />
             <br />
-            Refer:https://www.sih.gov.in/pdf/IdeasubmissionprocessSIH2020.pdf
-          </li>
+            Refer:  <a className="btn-creative" href="https://www.sih.gov.in/pdf/IdeasubmissionprocessSIH2020.pdf" alt="" target={"_blank"}>Download PDF</a></li>
         </ul>
         <br />
         <b>Grand Finale:</b>
