@@ -19,7 +19,7 @@ function Navbar() {
         exit={{ opacity: 0 }}
       >
       
-      <div style={{width:'15%' , height: 'auto' }}><Link href="/">
+      <div className="nav-logo-div"><Link href="/">
         <img
           className="log_img"
           src={Logo}
