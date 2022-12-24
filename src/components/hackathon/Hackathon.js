@@ -11,7 +11,6 @@ import IMG1 from "../../assets/hackwithinfylogo.png";
 import IMG2 from "../../assets/dch.png";
 import IMG3 from "../../assets/sihlogo.png";
 import IMG4 from "../../assets/gdh.png";
-import IMG5 from "../../assets/hr.png";
 import Navbar from "../Navbar.jsx";
 
 const data = [
