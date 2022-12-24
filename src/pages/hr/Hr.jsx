@@ -13,7 +13,7 @@ const Hr = () => {
   useEffect(() => {
     client
       .fetch(
-        `*[_type == "post" && references("2a7bd387-aad7-49f5-8f03-22ab63d27a55")] {
+        `*[_type == "post" && references("7dd1186f-2203-4e51-87f7-4220772a7aa5")] {
         title,
         slug,
         body,

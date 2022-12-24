@@ -6,6 +6,8 @@ import HomeLast from "../components/HomeLast"
 import Footer from "../components/Footer"
 import "../styles/mentors.css";
 import { FiLinkedin } from "react-icons/fi";
+import '../styles/Page.css'
+import Navbar from "../components/Navbar"
 
 export default function SinglePost() {
   const [singlePost, setSinglePost] = useState([])
@@ -17,7 +19,7 @@ export default function SinglePost() {
         `*[slug.current == "${slug}"] {
         title,
         body,
-        'mentors': mentors[] -> {title, mainImage {
+        'mentors': mentors[] -> {title, link, mainImage {
           asset -> {
             _id,
             url
@@ -47,6 +49,7 @@ export default function SinglePost() {
 
   return (
     <div style={{backgroundColor:'rgba(68, 68, 68, 0.4)'}}>
+      <Navbar />
         <section>
         {singlePost.map((post) => {
               return (
@@ -108,7 +111,7 @@ export default function SinglePost() {
                   <img className="card-image" key={data.mainImage.asset.id} src={data.mainImage.asset.url} alt="" />
                 <div className="card-content">
                   <h2 className="card-heading">{data.title}</h2>
-                  <a href={data.url} className="btn card-a">
+                  <a href={data.link} className="btn card-a">
                     Find out more
                     <span className="material-symbols-outlined">
                       <FiLinkedin />

@@ -12,7 +12,7 @@ const Company = () => {
   useEffect(() => {
     client
       .fetch(
-        `*[_type == "post" && references("e8871197-4aa7-48e5-873e-f52276b9bdc4")] {
+        `*[_type == "post" && references("8e5c7eed-5b7d-4049-b898-10fa95b443cf")] {
         title,
         slug,
         body,

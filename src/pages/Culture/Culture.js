@@ -12,7 +12,7 @@ const Culture = () => {
   useEffect(() => {
     client
       .fetch(
-        `*[_type == "post" && references("fec883dd-3d0e-411c-9050-02237cd123f7")] {
+        `*[_type == "post" && references("8b0a5201-e2d7-4bf8-9e25-eda6faea3145")] {
         title,
         slug,
         body,

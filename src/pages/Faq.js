@@ -26,7 +26,7 @@ const faqData = [
     all need guidance and mentoring for further opportunities.`,
   },
   {
-    ques: "Is Salaah a club or a chapter?",
+    ques: "Is Salaah a club or a community?",
     ans: `Salaah is a Mentor Community of ABESEC which was created to provide mentorship to the students. 
     It focuses on getting the students and the alumni in the same room so that they can discuss and connect one to one.`,
   },

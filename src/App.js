@@ -46,7 +46,7 @@ function App() {
         <Route path='/culture/:slug' element={<SinglePost/>} />
         </Routes>
         {/* <Routes>
-        <Route path='*' element={<PageNotFound/>} />
+        <Route path='/pnf' element={<PageNotFound/>} />
         </Routes> */}
         
       </BrowserRouter>
