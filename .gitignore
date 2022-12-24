@@ -1,1 +1,6 @@
 node_modules
+salaah-sanity/node_modules
+
+.gitignore
+.env
+salaah-sanity/.gitignore

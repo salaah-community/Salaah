@@ -9,7 +9,7 @@ import Defence from '../pages/Defence/Defence';
 import Startup from '../pages/startup/Startup'
 import { purple } from '@mui/material/colors';
 import '../styles/TabComponent.css'
-
+import { tabsClasses } from '@mui/material/Tabs';
 import Culture from '../pages/Culture/Culture';
 import Hr from '../pages/hr/Hr';
 
@@ -18,11 +18,11 @@ function TabPanel(props) {
 
   return (
     <div
-      role="tabpanel"
-      hidden={value !== index}
-      id={`vertical-tabpanel-${index}`}
-      aria-labelledby={`vertical-tab-${index}`}
-      {...other}
+    role="tabpanel"
+    hidden={value !== index}
+    id={`simple-tabpanel-${index}`}
+    aria-labelledby={`simple-tab-${index}`}
+    {...other}
     >
       {value === index && (
         <Box sx={{ p: 3 }}>
@@ -48,7 +48,6 @@ function a11yProps(index) {
 
 export default function TabComponent() {
   const [value, setValue] = React.useState(0);
-  const color = purple[50];
   const handleChange = (event, newValue) => {
     setValue(newValue);
   };
@@ -57,10 +56,13 @@ export default function TabComponent() {
     <Box
     >
       <Tabs
-        value={value}
-        onChange={handleChange}
-  indicatorColor="secondary"
-  centered
+      value={value}
+      onChange={handleChange}
+      variant="scrollable"
+      scrollbuttons="true"
+      allowscrollbuttonsmobile="true"
+      aria-label="scrollable force tabs example"
+      
       >
         <Tab sx={{color: 'white!important'}} label="Companies" {...a11yProps(0)} />
         <Tab sx={{color: 'white!important'}} label="Defence" {...a11yProps(1)} />
@@ -68,7 +70,7 @@ export default function TabComponent() {
         <Tab sx={{color: 'white!important'}} label="HR" {...a11yProps(3)} />
         <Tab sx={{color: 'white!important'}} label="StartUp" {...a11yProps(4)} />
       </Tabs>
-      <TabPanel value={value} index={0}>
+      <TabPanel value={value} index={0} >
         <Company />
       </TabPanel>
       <TabPanel value={value} index={1}>
