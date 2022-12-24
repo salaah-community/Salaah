@@ -2,11 +2,6 @@ import IMG1 from "../../assets/hackwithinfy.png";
 import IMG2 from "../../assets/devbhumicyberhackathon.png";
 import IMG3 from "../../assets/sih.png";
 import IMG4 from "../../assets/google.jpg";
-import IMG5 from "../../assets/synopsys.jpg";
-import IMG6 from "../../assets/tcs.jpg";
-import IMG7 from "../../assets/cogni-banner.jpg";
-import IMG8 from "../../assets/capg-banner.jpg";
-import IMG9 from "../../assets/accenture-banner.jpg";
 
 export const hackathondata = [
   {
