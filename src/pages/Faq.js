@@ -26,7 +26,7 @@ const faqData = [
     all need guidance and mentoring for further opportunities.`,
   },
   {
-    ques: "Is Salaah a club or a chapter?",
+    ques: "Is Salaah a club or a community?",
     ans: `Salaah is a Mentor Community of ABESEC which was created to provide mentorship to the students. 
     It focuses on getting the students and the alumni in the same room so that they can discuss and connect one to one.`,
   },
@@ -47,17 +47,6 @@ const faqData = [
 const Faq = () => {
   return (
     <div>
-      {/* <AnimatedCursor
-        color="255,255,255"
-        innerSize={8}
-        outerSize={35}
-        innerScale={1}
-        outerScale={1.7}
-        outerAlpha={0}
-        outerStyle={{
-          border: "3px solid #fff",
-        }}
-      /> */}
       <Navbar />
       <motion.div
         initial={{ y: 310 }}

@@ -1,72 +1,59 @@
-import React from "react";
-import Navbar from "../../components/Navbar";
+import React, { useEffect, useState } from "react";
 import "../../styles/Company.css";
-import Footer from "../../components/Footer";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-
-import IMG1 from "../../assets/soldier (2).png";
-
-// import AnimatedCursor from "react-animated-cursor";
+import client from "../../client";
 import { type } from "@testing-library/user-event/dist/type";
 
-const data = [
-  {
-    id: 1,
-    image: IMG1,
-    title: "Army Officer",
-    website: "https://www.cisco.com/c/en_in/index.html",    
-
-  },  
-];
-
 const Defence = () => {
+  const [posts, setPosts] = useState([])
+
+  useEffect(() => {
+    client
+      .fetch(
+        `*[_type == "post" && references("e8871197-4aa7-48e5-873e-f52276b9bdc4")] {
+        title,
+        slug,
+        body,
+        mainImage {
+          asset -> {
+            _id,
+            url
+          },
+          alt
+        },
+      }`
+      )
+      .then((data) => setPosts(data))
+      .catch(console.error)
+  }, [])
   return (
     <>
-      {/* <AnimatedCursor
-        color="255,255,255"
-        innerSize={8}
-        outerSize={35}
-        innerScale={1}
-        outerScale={1.7}
-        outerAlpha={0}
-        outerStyle={{
-          border: "3px solid #fff",
-        }}
-      /> */}
-      <Navbar />
       <motion.div
         animate={{ y: 0, opacity: 1, type: "spring" }}
         initial={{ opacity: 0.6, y: 310 }}
         transition={{ ease: [0.6, 0.01, -0.05, 0.9], duration: 1 }}
       >
-        <div className="container container-top">
-          <h1
-            className="Ultrabold comp"
-            style={{ marginTop: "8rem", marginBottom: "7rem" }}
-          >
-            Defence Sector
-          </h1>
-        </div>
-        <div className="container" style={{ marginBottom: "15%" }}>
+        <div className="container" style={{ marginBottom: "15%", marginTop: "5%" }}>
           <section id="company">
             <div className="company-grid">
               
-              {data.map(({ id,image, title }) => {
+            {posts.map((post) => {
               return (
-                <Link to = {`/defence/${id}`} key={id}>
+
+                <Link to = {`/defence/${post.slug.current}`} key={post.slug.current}>
                 <div class="company_box" style={{
-                  backgroundImage: `url('${image}')`,
+                  backgroundImage: `url('${post.mainImage.asset.url}')`,
                   backgroundSize: '50%'
                 }}>
                 <div style={{display: 'flex'}}>
                   <h2 style={{ marginTop: "75%", marginLeft: "auto", marginRight: "auto" }}>
-                    {title}
+                  {post.title}
                   </h2></div>
                   <div class="overlay">
                     <div class="company_box_text">
                       <br />
-                      <Link to = {`/defence/1`}
+                      <Link to = {`/defence/${post.slug.current}`}
                         className="btn btn-primary"
                         style={{ fontSize: "0.8rem"}}
                       >
@@ -76,6 +63,7 @@ const Defence = () => {
                   </div>
                 </div>
                 </Link>
+
               );
             })}
               
@@ -83,8 +71,6 @@ const Defence = () => {
           </section>
         </div>
       </motion.div>
-      <hr style={{width: '80vw', margin: 'auto'}}/>
-      <Footer />
     </>
   );
 };
