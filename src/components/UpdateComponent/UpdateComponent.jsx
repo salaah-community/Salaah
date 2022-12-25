@@ -40,7 +40,6 @@ const UpdateComponent = () => {
         }}
       >
         {posts.map((post) => {
-          console.log(post);
           return (
             <>
               <a

@@ -31,8 +31,6 @@ line-height: 1.5;
 box-sizing: border-box;
 -webkit-font-smoothing: antialiased;
 background-color: transparent;
-font-family: Inter,sans-serif;
-font-weight: 400;
 text-decoration: inherit;
 font-size: inherit;
 max-width: 100%;
@@ -144,4 +142,24 @@ text-transform: uppercase;
   bottom: 0;
   z-index: 2;
   cursor: not-allowed;
+}
+
+
+@media screen and (max-width: 500px) {
+  .about-stories_item-wrapper{
+    display: flex;
+    flex-direction: column;
+  }
+  .about-stories_image {
+    width: 100%;
+}
+.about-stories_item-wrapper{
+  align-items: inherit;
+}
+}
+
+@media screen and (max-width: 400px) {
+  .imp-updates{
+    font-size: 2rem;
+  }
 }

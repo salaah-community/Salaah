@@ -16,10 +16,10 @@ function Updates() {
         <div className="container">
           <div className="container-top">
             <h1
-              className="Ultrabold comp"
+              className="Ultrabold comp imp-updates"
               style={{ marginTop: "8rem", marginBottom: "7rem" }}
             >
-              Important Updates !
+              Important Updates!
             </h1>
           </div>
           <div className="updates-list">
