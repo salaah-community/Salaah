@@ -11,6 +11,7 @@ import PageNotFound from "./pages/PageNotFound.jsx";
 
 import Hackathon from "./components/hackathon/Hackathon"
 import Hackathon_Page from "./components/hackathon/Hackathon_Page"
+import Updates from "./components/Updates.js";
 
 function App() {
   return (
@@ -51,6 +52,9 @@ function App() {
         </Routes>
         <Routes>
         <Route path='/hackathon' element={<Hackathon/>}/>
+        </Routes>
+        <Routes>
+        <Route path='/updates' element={<Updates/>}/>
         </Routes>
         <Routes>
         <Route path='/hackathon/:id' element={<Hackathon_Page/>} />

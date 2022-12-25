@@ -163,11 +163,11 @@ function Navbar() {
             whileInView={{ opacity: 1 }}
           >
             <NavLink
-              to="/contact"
+              to="/updates"
               className="nav-links"
               onClick={closeMobileMenu}
             >
-              Contact Us
+              Updates
             </NavLink>
           </motion.li>
           

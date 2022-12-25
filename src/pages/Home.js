@@ -8,7 +8,6 @@ import Benefits from '../components/Benefits'
 import Info from '../components/Info';
 import Team from '../components/Team';
 import HomeLast from '../components/HomeLast.jsx';
-
 import Marquee from '../components/Marquee.jsx';
 import Loader from '../components/Loader.jsx';
 
