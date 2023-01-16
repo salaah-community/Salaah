@@ -11,6 +11,7 @@ import IMG1 from "../../assets/hackwithinfylogo.png";
 import IMG2 from "../../assets/dch.png";
 import IMG3 from "../../assets/sihlogo.png";
 import IMG4 from "../../assets/gdh.png";
+import IMG5 from "../../assets/TCS_LOGO.jpeg";
 import Navbar from "../Navbar.jsx";
 
 const data = [
@@ -42,6 +43,14 @@ const data = [
     about:
       "Start-ups contribute to economic development & entrepreneurs generate new ideas, which are essential for constant innovation and competition.",
   },
+  {
+    id: 5,
+    image: IMG5,
+    title: "TCS CODEVITA",
+    about:
+      "It connects people from varied backgrounds and ethnicities regardless of physical and cultural boundaries. It's also an exhilarating way to compete beyond borders and grow more skills as a programmer.",
+  },
+
   
 ];
 
