@@ -2,6 +2,7 @@ import IMG1 from "../../assets/hackwithinfy.png";
 import IMG2 from "../../assets/devbhumicyberhackathon.png";
 import IMG3 from "../../assets/sih.png";
 import IMG4 from "../../assets/google.jpg";
+import IMG5 from "../../assets/TCS_LOGO.jpeg";
 
 export const hackathondata = [
   {
@@ -148,14 +149,14 @@ export const hackathondata = [
             internship opportunities with Infosys.
           </li>
           <li>
-            • Power programmer salary would be around 8,32,198/- per annum.
+            • Power programmer salary would be around 9,50,000/- per annum.
           </li>
           <li>
-            •Digital System Engineer salary would be around 6,32,198/- per
+            •Digital System Engineer salary would be around 6,25,198/- per
             annum.
           </li>
           <li>
-            • System Engineer Specialist salary would be around 5,19,198/- per
+            • System Engineer Specialist salary would be around 3,60,198/- per
             annum.
           </li>
         </ul>
@@ -296,11 +297,7 @@ export const hackathondata = [
         students across 7218+ institutes in India.
       </div>
     ),
-    problem: (
-      <div>
-       
-      </div>
-    ),
+    problem: <div></div>,
     process: (
       <div>
         <b>Process Flow:</b>
@@ -429,7 +426,16 @@ export const hackathondata = [
             impact, user experience, and potential for future work progression.
             <br />
             <br />
-            Refer:  <a className="btn-creative" href="https://www.sih.gov.in/pdf/IdeasubmissionprocessSIH2020.pdf" alt="" target={"_blank"}>Download PDF</a></li>
+            Refer:{" "}
+            <a
+              className="btn-creative"
+              href="https://www.sih.gov.in/pdf/IdeasubmissionprocessSIH2020.pdf"
+              alt=""
+              target={"_blank"}
+            >
+              Download PDF
+            </a>
+          </li>
         </ul>
         <br />
         <b>Grand Finale:</b>
@@ -528,23 +534,38 @@ export const hackathondata = [
         </ul>
       </div>
     ),
-    reward: <div>
-      <ul>
-      <li>●	One winning team for every problem statement posted on the portal.</li>
-      <li>●	A winner would be selected and given the prize money only if the organization likes their idea. If they don’t like any idea they may not announce any winner.</li>
-      <li>●	Prize money for the winning team is Rs. 100000/- per problem statement.</li>
-      <li>●	In case of a tie, the final decision on prize money distribution will be taken by the problem statement creator alone.</li>
-      <li>●	Once a decision is made, it won’t be changed further.</li>
-      <li>●	For the Student Innovation category, there are 3-4 nodal centers and 3 teams from each center selected:
-      <ul>
-      <li>●	1st prize: Rs. 100000 /-</li>
-      <li>●	2nd prize: Rs. 75000 /-</li>
-      <li>●	3rd prize: Rs. 50000 /-</li>
-      </ul>
-      </li>
-
-      </ul>
-    </div>,
+    reward: (
+      <div>
+        <ul>
+          <li>
+            ● One winning team for every problem statement posted on the portal.
+          </li>
+          <li>
+            ● A winner would be selected and given the prize money only if the
+            organization likes their idea. If they don’t like any idea they may
+            not announce any winner.
+          </li>
+          <li>
+            ● Prize money for the winning team is Rs. 100000/- per problem
+            statement.
+          </li>
+          <li>
+            ● In case of a tie, the final decision on prize money distribution
+            will be taken by the problem statement creator alone.
+          </li>
+          <li>● Once a decision is made, it won’t be changed further.</li>
+          <li>
+            ● For the Student Innovation category, there are 3-4 nodal centers
+            and 3 teams from each center selected:
+            <ul>
+              <li>● 1st prize: Rs. 100000 /-</li>
+              <li>● 2nd prize: Rs. 75000 /-</li>
+              <li>● 3rd prize: Rs. 50000 /-</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    ),
   },
   {
     id: 4,
@@ -689,6 +710,150 @@ export const hackathondata = [
             sponsors.
           </li>
         </ul>
+      </div>
+    ),
+  },
+  {
+    id: 5,
+    company: "TCS CODEVITA",
+    cover: IMG5,
+    about: (
+      <div>
+        <b> CodeVita: The TCS Global Coding Contest for Students</b>
+        <br />
+        <br />
+        It connects people from varied backgrounds and ethnicities regardless of
+        physical and cultural boundaries. It's also an exhilarating way to
+        compete beyond borders and grow more skills as a programmer. At TCS, we
+        firmly believe in this philosophy that programming can be both fun and
+        challenging, which led to the inception of "CodeVita".
+      </div>
+    ),
+    // problem: (
+    //   <div>
+    //     <li>
+    //     What's in it for students?
+    //     </li>
+    //     <li>→ Global ranking to top coders</li>
+    //     <li>→ Top 3 coders to win total a prize money of USD 20,000/-</li>
+    //     <li>→ A chance to explore exciting careers* with one of the world's most powerful brand</li>
+    //     <li>→ A chance to compete with some of the best coders in the world</li>
+    //     <li>→ A platform to showcase your programming skills</li>
+    //     <li>→ The finalists stand a chance to travel** to India for the live grand finale experience.</li>
+    //   </div>
+    // ),
+    process: (
+      <div>
+        <h2> How do I register and login for the contest?</h2>
+        <p>
+          Registration process is common for India and Global participants.
+          Steps are as enumerated below:
+        </p>
+        <br />
+        <br />
+        <li>
+          • Click on the Login button at the top right-hand side of the page
+        </li>
+        <li>
+          • After clicking on it, a dialog box will pop-up with the Registration
+          link
+        </li>
+        <li>• Click on the Registration link</li>
+        <li>• Then choose India or Rest of the World, as applicable</li>
+        <li>
+          • Do read the Privacy notice, fill the registration details, and submit
+          the form
+        </li>
+        <li>
+          • After that, accept Terms and Conditions on the next page and click on
+          the Register button
+        </li>
+        <li>
+          • A message will appear saying that an email has been sent to you for
+          verification
+        </li>
+        <li>
+          • Open your mailbox, and click on the link given in the email to verify
+          your email address
+        </li>
+        <li>
+          • The verification link is valid for a short duration, so complete the
+          email verification quickly
+        </li>
+        <li>
+          • If clicking on the email link shows a success message, it means your
+          verification and registration is successful
+        </li>
+        <li>
+          • You can now login using your registered email id and chosen password
+          to CodeVita website
+        </li>
+        <br />
+        <br />
+        <b> Round 1(Pre-Qualifier):</b>
+        <br />
+        <br />
+        <ul>
+          <li>• You have a 6 hours online coding challenge.</li>
+          <li>
+            • It should be complete within 24-hours at your comfort times.
+          </li>
+          <li>
+            • If you qualified this round with a good rank there may be high
+            chances to get an interview with TCS.
+          </li>
+        </ul>
+        <br />
+        <br />
+        <ul>
+          <li>
+            <b>Round 2 (Qualifier):</b>
+            <br />• Shortlisted students from Round 1 will get a chance to
+            attend Round 2.
+            <br />• You will get 6 hours to complete questions but this time the
+            questions will be more difficult than round 1.
+            <br />• The benefit of getting a good rank in this round is a good
+            hike and a chance to get allocated in the latest technology project.
+          </li>
+          <br />
+          <li>
+            <b>Round 3 (Finale):</b>
+            <br />
+            • You will get an invitation to one of any TCS Campus for this round
+            and participants who are from another country out of India their
+            expenses are held by TCS.
+            <br />• Top 3 Rankers will get a chance to win USD 20,000.
+          </li>
+          <br />
+          <br />
+        </ul>
+      </div>
+    ),
+    judgingCriteria: (
+      <div>
+        <ul>
+          <li>→ Technical difficulty and complexity (30%)</li>
+          <li>→ Innovation (20%)</li>
+          <li>→ Impact and sustainability (20%)</li>
+          <li>→ User experience (15%)</li>
+          <li>→ Presentation and communication (15%)</li>
+        </ul>
+      </div>
+    ),
+    reward: (
+      <div>
+        <li>→ Global ranking to top coders</li>
+        <li>→ Top 3 coders to win total a prize money of USD 20,000/-</li>
+        <li>
+          → A chance to explore exciting careers* with one of the world's most
+          powerful brand
+        </li>
+        <li>→ A chance to compete with some of the best coders in the world</li>
+        <li>→ A platform to showcase your programming skills</li>
+        <li>
+          → The finalists stand a chance to travel** to India for the live grand
+          finale experience.
+        </li>
       </div>
     ),
   },
