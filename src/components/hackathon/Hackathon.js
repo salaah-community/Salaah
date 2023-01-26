@@ -24,7 +24,7 @@ const data = [
   {
     id: 2,
     image: IMG2,
-    title: "Devbhomi Hackathon",
+    title: "Devbhoomi Hackathon",
     about:
       " Devbhoomi Cyber Hackathon is providing a platform for you to outdo, outthink and outcode your biggest opponent - yourself. ",
   },
