@@ -46,7 +46,7 @@ const data = [
   {
     id: 5,
     image: IMG5,
-    title: "TCS CODEVITA",
+    title: "Tcs Codevita",
     about:
       "It connects people from varied backgrounds and ethnicities regardless of physical and cultural boundaries. It's also an exhilarating way to compete beyond borders and grow more skills as a programmer.",
   },
