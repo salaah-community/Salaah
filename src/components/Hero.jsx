@@ -10,7 +10,7 @@ const Hero = () => {
     transition={{ ease: [0.6, 0.01, -0.05, 0.9], duration: 1 }}
     >
         <div className="hero-head">
-          <h1 className="Ultrabold hello">Design the Future</h1>
+          <h1 className="hello"><span className="Ultrabold">Design the</span> <span className="update Ultrabold">Future</span></h1>
         </div>
         <div className="Regular container hero-content">
           <p className="hero-content-text">Connecting our current students with the alumni to recieve career guidance.</p>

@@ -6,8 +6,8 @@
 }
 .hero-container{
   backdrop-filter: blur(5px);
--webkit-backdrop-filter: blur(5px);
-margin-top: 10rem;  
+  -webkit-backdrop-filter: blur(5px);
+  margin-top: 10rem;  
 }
 
 .hero-head{
@@ -71,4 +71,21 @@ margin-top: 5%;
     right: 15rem;
     bottom: -10rem;
 }
+}
+
+/* For the animation of the future section */
+.update {
+  line-height: 160px;
+  margin-left: -10px;
+  color: transparent;
+  -webkit-text-stroke: 1px #fff;
+  background: url(/src/assets/future-03.jpg);
+  -webkit-background-clip: text;
+  background-position: 0 0;
+  animation: back 20s linear infinite;
+}
+@keyframes back {
+  100% {
+    background-position: 2000px 0;
+  }
 }
