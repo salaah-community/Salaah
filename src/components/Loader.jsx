@@ -1,12 +1,17 @@
-import React from 'react'
-import loader from '../assets/loader.svg'
+import React from "react";
+import "../styles/Loader.css";
 
 const Loader = () => {
   return (
-    <div className='loader'>
-         <img src={loader} alt="loader" />
+    <div class="loader">
+      <span>S</span>
+      <span>A</span>
+      <span>L</span>
+      <span>A</span>
+      <span>A</span>
+      <span>H.</span>
     </div>
-  )
-}
+  );
+};
 
-export default Loader
+export default Loader;
