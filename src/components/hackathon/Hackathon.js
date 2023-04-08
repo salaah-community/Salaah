@@ -1,7 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-// import AnimatedCursor from "react-animated-cursor";
 
 import Footer from "../Footer.jsx";
 import "./Opportunity.css";
@@ -57,17 +56,6 @@ const data = [
 const Hackathon = () => {
   return (
     <div>
-      {/* <AnimatedCursor
-        color="255,255,255"
-        innerSize={8}
-        outerSize={35}
-        innerScale={1}
-        outerScale={1.7}
-        outerAlpha={0}
-        outerStyle={{
-          border: "3px solid #fff",
-        }}
-      /> */}
       <Navbar/>
       <motion.div
         initial={{ y: 310 }}

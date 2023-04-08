@@ -10,6 +10,11 @@
   margin-top: 10rem;  
 }
 
+.enter
+{
+  background-color: #BCA8D6 !important;
+  color: black;
+}
 .hero-head{
 margin-top: 5%;
 }
