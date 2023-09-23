@@ -1,138 +1,138 @@
 export const teamWorking = [
   {
     //Technical Operations
-    name: "Ayush Kumar Gupta",
+    name: "Mr. Ayush Kumar Gupta",
     title: "Technical Operation	",
     img: "",
   },
   {
-    name: "Kanishka Varshney",
+    name: "Ms. Kanishka Varshney",
     title: "Technical Operation	",
     img: "",
   },
   {
-    name: "Mayank Srivastava",
+    name: "Mr. Mayank Srivastava",
     title: "Technical Operation	",
     img: "",
   },
   {
-    name: "Priyank Aggarwal",
+    name: "Mr. Priyank Aggarwal",
     title: "Technical Operation	",
     img: "",
   },
   {
-    name: "Shruti Mohanty",
+    name: "Ms. Shruti Mohanty",
     title: "Technical Operation	",
     img: "",
   },
   {
-    name: "Vijit Verma",
+    name: "Mr. Vijit Verma",
     title: "Technical Operation	",
     img: "",
   },
   //Social Media and Marketing
   {
-    name: "Ayush Sirohi",
+    name: "Mr. Ayush Sirohi",
     title: "Social Media & Marketing",
     img: "",
   },
   {
-    name: "Dev Teotia",
+    name: "Mr. Dev Teotia",
     title: "Social Media & Marketing",
     img: "",
   },
   {
-    name: "Divyam Kumar",
+    name: "Mr. Divyam Kumar",
     title: "Social Media & Marketing",
     img: "",
   },
   {
-    name: "Prajakta Singhal",
+    name: "Ms. Prajakta Singhal",
     title: "Social Media & Marketing",
     img: "",
   },
   {
-    name: "Radhika Gupta",
+    name: "Ms. Radhika Gupta",
     title: "Social Media & Marketing",
     img: "",
   },
   {
-    name: "Utkarsh Sharma",
+    name: "Mr. Utkarsh Sharma",
     title: "Social Media & Marketing",
     img: "",
   },
   //Menter-Mentee & Outreach
   {
-    name: "Anshika Verma",
+    name: "Ms. Anshika Verma",
     title: "Mentor-Mentee & Outreach",
     img: "",
   },
   {
-    name: "Devansh Bajaj",
+    name: "Mr. Devansh Bajaj",
     title: "Mentor-Mentee & Outreach",
     img: "",
   },
   {
-    name: "Jiya",
+    name: "Ms. Jiya",
     title: "Mentor-Mentee & Outreach",
     img: "",
   },
   {
-    name: "Kartik Kaushik",
+    name: "Mr. Kartik Kaushik",
     title: "Mentor-Mentee & Outreach",
     img: "",
   },
   {
-    name: "Sarthak Tyagi",
+    name: "Mr. Sarthak Tyagi",
     title: "Mentor-Mentee & Outreach",
     img: "",
   },
   {
-    name: "Tanishka Singh",
+    name: "Ms. Tanishka Singh",
     title: "Mentor-Mentee & Outreach",
     img: "",
   },
   //Mock Interview & Technical Program
   {
-    name: "Nikita Baranwal",
+    name: "Ms. Nikita Baranwal",
     title: "Mock Interview & Technical Program",
     img: "",
   },{
-    name: "Nishtha Srivastava",
+    name: "Ms. Nishtha Srivastava",
     title: "Mock Interview & Technical Program",
     img: "",
   },{
-    name: "Shivansh Rastogi",
+    name: "Mr. Shivansh Rastogi",
     title: "Mock Interview & Technical Program",
     img: "",
   },{
-    name: "Srishti Rajput",
+    name: "Ms. Srishti Rajput",
     title: "Mock Interview & Technical Program",
     img: "",
   },{
-    name: "Tashvi Chaudhary",
+    name: "Ms. Tashvi Chaudhary",
     title: "Mock Interview & Technical Program",
     img: "",
   },
   //Resource Management & Activities
   {
-    name: "Aradhya Srivastava",
+    name: "Mr. Aradhya Srivastava",
     title: "Resource Management & Activities",
     img: "",
   },{
-    name: "Bhaskar Singh",
+    name: "Mr. Bhaskar Singh",
     title: "Resource Management & Activities",
     img: "",
   },{
-    name: "Harsh Mavi",
+    name: "Mr. Harsh Mavi",
     title: "Resource Management & Activities",
     img: "",
   },{
-    name: "Prachi Singh",
+    name: "Ms. Prachi Singh",
     title: "Resource Management & Activities",
     img: "",
   },{
-    name: "Utkarsh Kumar",
+    name: "Mr. Utkarsh Kumar",
     title: "Resource Management & Activities",
     img: "",
   },
