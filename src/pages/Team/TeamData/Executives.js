@@ -1,34 +1,35 @@
-import keshav from "../../../assets/team/keshavjha.jpeg";
-import injila from "../../../assets/team/injila.jpg";
-import ayush from "../../../assets/team/ayush.jpeg";
-import shrey from "../../../assets/team/shreyvashistha.jpg";
-import gaurav from "../../../assets/team/gauravgulati.jpeg";
+import Naman from "../../../assets/team/Naman Goel.jpeg";
+import kavya from "../../../assets/team/Kavya Tyagi.jpg";
+import parth from "../../../assets/team/Parth Singhal.jpg";
+import harshit from "../../../assets/team/Harshit Singh Mahara.jpg";
+import Tansiha from "../../../assets/team/tanisha.jpeg";
+import { parsePath } from "react-router-dom";
 
 export const teamExec = [
   {
-    name: "Mr. Keshav Jha",
-    title: "Planning & Strategy Department",
-    img: keshav,
+    name: "Naman Goel",
+    
+    img: Naman,
   },
   {
-    name: "Ms. Injila Ali",
-    title: "Oration Department",
-    img: injila,
+    name: "Parth Singhal",
+    
+    img: parth,
   },
   {
-    name: "Mr. Gaurav Gulati",
-    title: "Planning & Strategy Department",
-    img: gaurav,
+    name: "Tansiha Bhatt",
+    
+    img: Tansiha,
   },
   {
-    name: "Mr. Shrey Vashistha",
-    title: "Content Department",
-    img: shrey,
+    name: "Harshit Singh Mahara",
+    
+    img: harshit,
   },
 
   {
-    name: "Mr. Ayush Malik",
-    title: "Content Department",
-    img: ayush,
+    name: "Kavya Tyagi",
+    
+    img: kavya,
   },
 ];

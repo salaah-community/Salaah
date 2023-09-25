@@ -10,6 +10,7 @@ import { teamMentors } from "./TeamData/Mentors";
 import { teamExec } from "./TeamData/Executives";
 import { teamLeads } from "./TeamData/Leads";
 import { teamWorking } from "./TeamData/Working";
+import { mentors } from "./TeamData/Mentor_Mentee_Board";
 import { motion } from 'framer-motion'
 import TeamList from "./TeamList";
 
@@ -61,7 +62,17 @@ const Team = () => {
                   })}
                 </div>
               </div>
-            </div>            
+            </div>      
+            <div id="team-section">
+              <h1 className="team_headline Regular">Mentor Mentee Board</h1>
+              <div style={{ marginBottom: "7rem" }}>
+                <div className="teamCard_grid">
+                  {mentors.map(({ name, title, img }) => {
+                    return <TeamCards name={name} title={title} img={img} loading="lazy"/>;
+                  })}
+                </div>
+              </div>
+            </div>
             <div id="team-section">
               <h1 className="team_headline Regular">Executives</h1>
               <div style={{ marginBottom: "7rem" }}>
@@ -71,7 +82,7 @@ const Team = () => {
                   })}
                 </div>
               </div>
-            </div>
+            </div>     
             <div id="team-section">
               <h1 className="team_headline Regular">Leads</h1>
               <div style={{ marginBottom: "7rem" }}>
