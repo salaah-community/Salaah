@@ -2,7 +2,7 @@ import Naman from "../../../assets/team/Naman Goel.jpeg";
 import kavya from "../../../assets/team/Kavya Tyagi.jpg";
 import parth from "../../../assets/team/Parth Singhal.jpg";
 import harshit from "../../../assets/team/Harshit Singh Mahara.jpg";
-import Tansiha from "../../../assets/team/tanisha.jpeg";
+import Tanisha from "../../../assets/team/tanisha.jpeg";
 import { parsePath } from "react-router-dom";
 
 export const teamExec = [
@@ -17,9 +17,9 @@ export const teamExec = [
     img: parth,
   },
   {
-    name: "Tansiha Bhatt",
+    name: "Tanisha Bhatt",
     
-    img: Tansiha,
+    img: Tanisha,
   },
   {
     name: "Harshit Singh Mahara",
