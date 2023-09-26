@@ -14,56 +14,56 @@ import ayushT from "../../../assets/team/Ayush Tyagi.jpg";
 
 export const mentors = [
   {
-    name: "Aryan Porwal",
+    name: "Mr.Aryan Porwal",
     img: aryan,
   },
   {
-    name: "Ayush Tyagi",
+    name: "Mr.Ayush Tyagi",
     img: ayushT,
   },
   {
-    name: "Darshika Gupta",
+    name: "Ms.Darshika Gupta",
     img: darshika,
   },
   {
-    name: "Poras Saini",
+    name: "Mr.Poras Saini",
     img: poras,
   },
   {
-    name: "Anshika Chauhan",
+    name: "Ms.Anshika Chauhan",
     img: anshika,
   },
   {
-    name: "Amar Jyoti",
+    name: "Mr.Amar Jyoti",
     img: amar,
   },
   {
-    name: "Bhoomi",
+    name: "Ms.Bhoomi",
     img: bhoomi,
   },
   {
-    name: "Saurabh Srivastava",
+    name: "Mr.Saurabh Srivastava",
     img: saurabh,
   },
   {
-    name: "Keshav Jha",
+    name: "Mr.Keshav Jha",
     img: keshav,
   },
   {
-    name: "Injila Ali",
+    name: "Ms.Injila Ali",
     img: injila,
   },
   {
-    name: "Gaurav Gulati",
+    name: "Mr.Gaurav Gulati",
     img: gaurav,
   },
   {
-    name: "Shrey Vashistha",
+    name: "Mr.Shrey Vashistha",
     img: shrey,
   },
 
   {
-    name: "Ayush Malik",
+    name: "Mr.Ayush Malik",
     img: ayush,
   },
 ];
