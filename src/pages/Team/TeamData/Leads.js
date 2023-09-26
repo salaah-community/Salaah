@@ -17,66 +17,66 @@ import divyansh from "../../../assets/team/Divyansh Agarwal.jpeg";
 export const teamLeads = [
     // Head of Technical Operations
     {        
-        name: 'Vivek Kumar Tiwari',
+        name: 'Mr.Vivek Kumar Tiwari',
         title: 'Head of Technical Operations',
         img: vivek 
     },
     {        
-        name: 'Ish Purwar',
+        name: 'Mr.Ish Purwar',
         title: 'Head of Technical Operations',
         img: ish
     },
     // Head of Resource Management & Activities
     {        
-        name: 'Khushi Chuadhary',
+        name: 'Ms.Khushi Chuadhary',
         title: 'Head of Resource Management & Activities',
         img: khushi
     },
 {        
-        name: 'Mishita Saxena',
+        name: 'Ms.Mishita Saxena',
         title: 'Head of Resource Management & Activities',
         img: mishita
     },
 {        
-        name: 'Faraz Hafeez',
+        name: 'Mr.Faraz Hafeez',
         title: 'Head of Resource Management & Activities',
         img: faraz
     },
     //Head of Social Media & Marketing
 {        
-        name: 'Tanya Srivastava',
+        name: 'Ms.Tanya Srivastava',
         title: 'Head of Social Media & Marketing',
         img: tanya
     },
 {        
-        name: 'Abhishek Yadav',
+        name: 'Mr.Abhishek Yadav',
         title: 'Head of Social Media & Marketing',
         img: abhishek
     },
 {        
-        name: 'Aryan Garg',
+        name: 'Mr.Aryan Garg',
         title: 'Head of Social Media & Marketing',
         img: aryan
     },
     //Head of Mentor-Mentee & Outreach
 {        
-        name: 'Sakshi Sharma',
+        name: 'Ms.Sakshi Sharma',
         title: 'Head of Mentor-Mentee & Outreach',
         img: sakshi
     },
 {        
-        name: 'Harsh Jadoun',
+        name: 'Mr.Harsh Jadoun',
         title: 'Head of Mentor-Mentee & Outreach',
         img: harsh
     },
     //Head of Mock Interview & Technical Program
 {        
-        name: 'Vrisha Garg',
+        name: 'Ms.Vrisha Garg',
         title: 'Head of Mock Interview & Technical Program',
         img: vrihsa
     },
 {        
-        name: 'Divyansh Agarwal',
+        name: 'Mr.Divyansh Agarwal',
         title: 'Head of Mock Interview & Technical Program',
         img: divyansh
     }
