@@ -73,7 +73,7 @@ export const teamLeads = [
 {        
         name: 'Ms. Vrisha Garg',
         title: 'Mock Interview & Technical Program',
-        img: vrihsay
+        img: vrihsa
     },
 {        
         name: 'Mr. Divyansh Agarwal',
