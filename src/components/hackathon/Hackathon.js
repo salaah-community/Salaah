@@ -11,6 +11,12 @@ import IMG2 from "../../assets/dch.png";
 import IMG3 from "../../assets/sihlogo.png";
 import IMG4 from "../../assets/gdh.png";
 import IMG5 from "../../assets/TCS_LOGO.jpeg";
+import IMG8 from "../../assets/codegeist.png";
+import IMG7 from "../../assets/cyientifiq.png";
+import IMG6 from "../../assets/ey_techathon.png";
+import IMG9 from "../../assets/icon_hyperbuild.png";
+import IMG10 from "../../assets/devfest_eket.png";
+
 import Navbar from "../Navbar.jsx";
 
 const data = [
@@ -49,8 +55,37 @@ const data = [
     about:
       "It connects people from varied backgrounds and ethnicities regardless of physical and cultural boundaries. It's also an exhilarating way to compete beyond borders and grow more skills as a programmer.",
   },
-
-  
+  {
+    id: 8,
+    image: IMG8,
+    title: "Codegeist Unleashed",
+    about:
+      "Can AI fuel the workplace? Find out by building AI apps on Atlassian's Forge platform. $172,500 in prizes and trips to Amsterdam for the top 3 winners.",
+  },{
+    id: 7,
+    image: IMG7,
+    title: "CyientifIQ Innovation League",
+    about:
+      "This exhilarating event brings together brilliant minds from various fields. With three captivating themes - Designing Digital Enterprises, Building Intelligent Products and Platforms, and Solving Sustainability Challenges to shape a better future",
+  },{
+    id: 6,
+    image: IMG6,
+    title: "EY Techathon",
+    about:
+      "Ignite the spark of innovation in you, powered by EY's cutting-edge Gen AI platform to accelerate your learnings through personalized leadership connects!",
+  },{
+    id: 9,
+    image: IMG9,
+    title: "Icon Hyperbuild",
+    about:
+      "Transcend blockchain barriers and build your dream cross-chain project using one of the world’s most connected networks, ICON.",
+  },{
+    id: 10,
+    image: IMG10,
+    title: "DevFest Eket",
+    about:
+      "Develop innovative tech solutions that can contribute to a more sustainable and eco-friendly future for Eket and its surroundings",
+  },
 ];
 
 const Hackathon = () => {
@@ -80,9 +115,9 @@ const Hackathon = () => {
                   backgroundSize: '60%'
                 }}>
                 <div id="titleTrack"style={{display: 'flex'}}>
-                  <h2 style={{ marginTop: "75%", marginLeft: "auto", marginRight: "auto" }}>
+                  <h3 style={{ marginTop: "78%", marginLeft: "auto", marginRight: "auto" }}>
                     {title}
-                  </h2></div>
+                  </h3></div>
                   <div class="overlay">
                     <div class="company_box_text">
                       <p>{about}</p><br />
