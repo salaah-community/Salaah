@@ -7,28 +7,28 @@ import { parsePath } from "react-router-dom";
 
 export const teamExec = [
   {
-    name: "Mr.Naman Goel",
+    name: "Mr. Naman Goel",
     
     img: Naman,
   },
   {
-    name: "Mr.Parth Singhal",
+    name: "Mr. Parth Singhal",
     
     img: parth,
   },
   {
-    name: "Ms.Tanisha Bhatt",
+    name: "Ms. Tanisha Bhatt",
     
     img: Tanisha,
   },
   {
-    name: "Mr.Harshit Singh Mahara",
+    name: "Mr. Harshit Singh Mahara",
     
     img: harshit,
   },
 
   {
-    name: "Ms.Kavya Tyagi",
+    name: "Ms. Kavya Tyagi",
     
     img: kavya,
   },
