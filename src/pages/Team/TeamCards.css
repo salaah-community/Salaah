@@ -1,3 +1,4 @@
+
 .teamImg {
   height: 19rem;
   width: 15rem;
@@ -11,10 +12,45 @@
   color: var(--color-light);
   font-size: 0.85rem;
   font-family: "Poppins";
+  
+  
 }
 
 .teamImg{
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 820px) {
+  .teamName p {
+    width: 30vw;
+  }
+}
+
+@media screen and (max-width: 624px) {
+  .teamName p {
+    width: 35vw;
+  }
+}
+
+@media screen and (max-width: 535px) {
+  .teamName p {
+    width: 40vw;
+  }
+}
+@media screen and (max-width: 468px) {
+  .teamName p {
+    width: 45vw;
+  }
+}
+@media screen and (max-width: 468px) {
+  .teamName p {
+    width: 50vw;
+  } 
+}
+@media screen and (max-width: 390px) {
+  .teamName p {
+    width: 50vw;
+  }
 }

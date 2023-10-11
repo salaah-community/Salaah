@@ -15,69 +15,69 @@ import divyansh from "../../../assets/team/Divyansh Agarwal.jpeg";
 
 
 export const teamLeads = [
-    // Head of Technical Operations
+    // Technical Operations
     {        
-        name: 'Vivek Kumar Tiwari',
-        title: 'Head of Technical Operations',
+        name: 'Mr. Vivek Kumar Tiwari',
+        title: 'Technical Operations',
         img: vivek 
     },
     {        
-        name: 'Ish Purwar',
-        title: 'Head of Technical Operations',
+        name: 'Mr. Ish Purwar',
+        title: 'Technical Operations',
         img: ish
     },
-    // Head of Resource Management & Activities
+    // Resource Management & Activities
     {        
-        name: 'Khushi Chuadhary',
-        title: 'Head of Resource Management & Activities',
+        name: 'Ms. Khushi Chaudhary',
+        title: 'Resource Management & Activities',
         img: khushi
     },
 {        
-        name: 'Mishita Saxena',
-        title: 'Head of Resource Management & Activities',
+        name: 'Ms. Mishita Saxena',
+        title: 'Resource Management & Activities',
         img: mishita
     },
 {        
-        name: 'Faraz Hafeez',
-        title: 'Head of Resource Management & Activities',
+        name: 'Mr. Faraz Hafeez',
+        title: 'Resource Management & Activities',
         img: faraz
     },
-    //Head of Social Media & Marketing
+    // ? Social Media & Marketing
 {        
-        name: 'Tanya Srivastava',
-        title: 'Head of Social Media & Marketing',
+        name: 'Ms. Tanya Srivastava',
+        title: 'Social Media & Marketing',
         img: tanya
     },
 {        
-        name: 'Abhishek Yadav',
-        title: 'Head of Social Media & Marketing',
+        name: 'Mr. Abhishek Yadav',
+        title: 'Social Media & Marketing',
         img: abhishek
     },
 {        
-        name: 'Aryan Garg',
-        title: 'Head of Social Media & Marketing',
+        name: 'Mr. Aryan Garg',
+        title: 'Social Media & Marketing',
         img: aryan
     },
-    //Head of Mentor-Mentee & Outreach
+    //? Head Mentor-Mentee & Outreach
 {        
-        name: 'Sakshi Sharma',
-        title: 'Head of Mentor-Mentee & Outreach',
+        name: 'Ms. Sakshi Sharma',
+        title: 'Mentor-Mentee & Outreach',
         img: sakshi
     },
 {        
-        name: 'Harsh Jadoun',
-        title: 'Head of Mentor-Mentee & Outreach',
+        name: 'Mr. Harsh Jadoun',
+        title: 'Mentor-Mentee & Outreach',
         img: harsh
     },
-    //Head of Mock Interview & Technical Program
+    // ? Head of Mock Interview & Technical Program
 {        
-        name: 'Vrisha Garg',
-        title: 'Head of Mock Interview & Technical Program',
+        name: 'Ms. Vrisha Garg',
+        title: 'Mock Interview & Technical Program',
         img: vrihsa
     },
 {        
-        name: 'Divyansh Agarwal',
-        title: 'Head of Mock Interview & Technical Program',
+        name: 'Mr. Divyansh Agarwal',
+        title: 'Mock Interview & Technical Program',
         img: divyansh
     }
 ]

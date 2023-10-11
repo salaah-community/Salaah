@@ -3,6 +3,11 @@ import IMG2 from "../../assets/devbhumicyberhackathon.png";
 import IMG3 from "../../assets/sih.png";
 import IMG4 from "../../assets/google.jpg";
 import IMG5 from "../../assets/TCS_LOGO.jpeg";
+import IMG8 from "../../assets/codegeist.png";
+import IMG7 from "../../assets/cyientifiq.png";
+import IMG6 from "../../assets/ey_techathon.png";
+import IMG9 from "../../assets/icon_hyperbuild.png";
+import IMG10 from "../../assets/devfest_eket.png";
 
 export const hackathondata = [
   {
@@ -857,4 +862,670 @@ export const hackathondata = [
       </div>
     ),
   },
+  {
+    id: 6,
+    company: "EY TECHATHON",
+    cover: IMG6,
+    about: (
+      <div>
+        <b> EY Techathon 4.0 | Re-imagining Possibilities with GenAI</b>
+        <br />
+        <br />
+        EY Techathon 4.0 is open to undergraduate and postgraduate students (part-time or full-time) from any discipline in any college based out of India. Participants can register individually or in teams with at most 5 members. Cross-specialization and cross-college teams are allowed.
+      </div>
+    ),
+    // problem: (
+    //   <div>
+    //     <li>
+    //     What's in it for students?
+    //     </li>
+    //     <li>→ Global ranking to top coders</li>
+    //     <li>→ Top 3 coders to win total a prize money of USD 20,000/-</li>
+    //     <li>→ A chance to explore exciting careers* with one of the world's most powerful brand</li>
+    //     <li>→ A chance to compete with some of the best coders in the world</li>
+    //     <li>→ A platform to showcase your programming skills</li>
+    //     <li>→ The finalists stand a chance to travel** to India for the live grand finale experience.</li>
+    //   </div>
+    // ),
+    eligibility: (
+      <div>
+        <h2>Eligibility Criteria</h2>
+        <p>
+          Eligibility for Participants: The following eligibility criteria shall be applicable for participation
+          in the Competition:
+          <br />
+          <br />
+        </p>
+        <li>
+          • The Participant(s) should be an Indian citizen, residing in India only and above 18 years of age on
+          the date of the participation
+        </li>
+        <li>
+          • The Participant(s) should be students currently enrolled in a degree/diploma course (part-time or
+          full-time) from any discipline in any college based out of India
+        </li>
+        <li>
+          • The Participant(s) can participate either in their individual capacity or as a team with team size not
+          exceeding 4 members at a time
+        </li>
+        <li>
+          • The Participant(s) can have maximum of two non-students in their team provided that the students
+          form the majority of the team composition
+        </li>
+        <li>
+          • The Participant should not have a criminal conviction or an arrangement or a contract that prevents
+          the Participant from participating in the Competition;
+        </li>
+        <li>
+          • The Participant should have proof of age and address proof when requested by EY and must be
+          mandatorily submitted by the Participant to EY, as may be required by EY to confirm the eligibility
+          of the Participant;
+        </li>
+        <li>
+          • The Participant should abide by all the applicable laws at all times, including complying with the
+          lockdown order and other orders, instructions and guidelines issued by any government authority,
+          judicial or quasi-judicial authority;
+        </li>
+        <li>
+          • Employees, directors, partners of EY and its affiliates are not eligible to participate in this
+          Competition;
+        </li>
+        <li>
+          • The Participant(s) should be an Indian citizen, residing in India only and above 18 years of age on
+          the date of the participation
+        </li>
+        <li>
+          • In the event the Participant fulfils all the criteria above, then he/she/they may submit the Entries in
+          accordance with these Terms and Conditions. EY reserves the right but not the obligation to verify
+          if an individual meets all the criteria. EY reserves the sole right to disqualify and reject the Entries
+          and registration of Participant(s) at any point of time in the event the above criteria or any part
+          thereof is not met with or any discrepancy is found to exist in the information furnished/provided
+          by the Participant at any point of time
+        </li>
+      </div>
+    ),
+    process: (
+      <div>
+        <h2> How do I register and login for the contest?</h2>
+        <br />
+        <br />
+        <li>
+          • The Participant(s) who are desirous of entering the Competition are required to register at
+          www.ey.com/en_in/techathon-3 (“Microsite”) indicating the personal details of the individual or
+          ofeach team member.
+        </li>
+        <li>
+          • Once the Participant(s) accesses the Microsite, the Participant(s) shall be required to share the
+          Personal Information by duly filling the personal details including but not limited to full name, age,
+          city, college id, email ID, mobile phone number(s) and/or any other information/documentation as
+          sought by EY, at its discretion (“Personal Information”) in a manner and form, as requested and
+          /or prescribed on the Microsite
+        </li>
+        <li>• For avoidance of doubt, for the purposes of participating in the Competition set out hereinabove,
+          registering for the Competition through a valid mobile phone number and email id via the medium
+          of the Microsite is mandatory for all interested Participants. EY is not responsible to validate
+          correctness of the mobile number and email id provided by the Participant(s)</li>
+        <li>• Then choose India or Rest of the World, as applicable</li>
+        <li>
+          • If at any point of time EY finds that the mobile phone number, email id or any other information
+          provided by the Participant(s) including on the Microsite, is false and/or unauthenticated, then EY
+          shall have the right to forthwith disqualify such Participant from further participation and his/her
+          Project shall immediately be considered to be null and void
+        </li>
+        <li>
+          • The interested Participant(s) shall carefully read the Terms and Conditions, complete filling details
+          of the Personal Information and click the checkbox 'I Accept Terms & Conditions' in order to
+          accept the Terms and Conditions and submission of the Personal Information.
+        </li>
+        <li>
+          • The Participant(s) agrees and undertakes that all Personal Information, provided by them at the
+          time of registration is true, correct, and accurate.
+        </li>
+        <br />
+        <br />
+        <b> Round 1(Executive Summary Submission):</b>
+        <br />
+        <br />
+        <ul>
+          <li>• Only registered students will be able to access the problem statements from the round active.</li>
+          <li>
+            • Teams will be required to submit a 1-3 slider PPT (.pdf format) of their proposed solution in the prescribed format.
+          </li>
+          <li>
+            • The submission templates can be accessed by the registered students/teams from the round titled "Round 1: Executive Summary Submission" on this page.
+          </li>
+          <li>
+            • All the participants are requested to submit their solutions well before the deadline to avoid any last-minute hassle.
+          </li>
+          <li>
+            • Based on the submissions received, the top teams will be shortlisted and taken to the next round.
+          </li>
+        </ul>
+        <br />
+        <br />
+        <ul>
+          <li>
+            <b>Round 2 (Semi-Final: Detailed Presentation Submission):</b>
+            <br />• The shortlisted teams from Round 1 will upload their detailed presentation on the chosen problem statement.
+            <br />• Teams will be required to submit their detailed presentation in a deck with less than or equal to 10 slides.
+            <br />• The presentation should be structured and based on the presentation duration i.e. 10 minutes.
+
+          </li>
+          <br />
+          <li>
+            <b>Semi Finale Presentations:</b>
+            <br />
+            • Shortlisted participants will present their solution models in this round to a jury panel comprising EY leaders. Based on this round, finalists will be announced.
+          </li>
+          <br />
+          <li>
+            <b>Mentorship:</b>
+            <br />
+            • The shortlisted teams will work with their respective mentors to prepare their innovative submissions for the Grand Final.
+            <br />• This is a great opportunity for teams to get some expert guidance on any roadblocks they may be facing or simply to just gain some confidence by pitching EY leaders.
+          </li>
+          <br />
+          <li>
+            <b>Round 3 ( Grand Finale):</b>
+            <br />
+            • The Gen AI use cases will be presented by the finalists to a jury comprising industry leaders in the grand finale and the winners will be announced.
+          </li>
+          <br />
+          <br />
+        </ul>
+      </div>
+    ),
+    judgingCriteria: (
+      <div>
+        <h3>The Projects shall be evaluated and shortlisted by a Screening Jury based on the following criteria:</h3>
+        <ul>
+          <li>→ Uniqueness of the idea</li>
+          <li>→ Design of the solution</li>
+          <li>→ Solution design framework and use of technology</li>
+          <li>→ End-user benefit and social impact</li>
+          <li>→ Based on the scores received from the Screening Jury, some Projects shall be shortlisted for
+            evaluation by the Semi-Finals and Grand Finale Jury</li>
+          <li>→ The semi-finalists and finalists will then be required to make a virtual presentation to the SemiFinals and Grand Finale
+            Jury post which the winners shall be decided based on the scores provided
+            by the Final Jury ('Winner')</li>
+          <li>→ The Jury shall have the sole authority to judge and evaluate the Projects and their decision shall be
+            final and binding on all Participants</li>
+        </ul>
+      </div>
+    ),
+    reward: (
+      <div>
+        <li>→ Winner - Prizes worth INR 3,00,000</li>
+        <li>→ Runner-Up - Prizes worth INR 2,00,000</li>
+        <li>
+          → Exciting cash prizes up for grabs.
+        </li>
+        <li>→ Internship opportunities with EY.</li>
+        <li>→ Mentoring with EY and industry stalwarts.</li>
+      </div>
+    ),
+  },
+  {
+    id: 7,
+    company: "CyientifIQ Innovation League- Global Hackathon",
+    cover: IMG7,
+    about: (
+      <div>
+        <b>COMMENCEMENT AND DURATION OF THE HACKATHON</b>
+        <br />
+        <br />
+        Ideation(Online)-  Sep 16,2023, 12:00 PM EDT - Oct 15,2023, 08:00 PM EDT<br />
+        Development(Online)-  Oct 23,2023, 01:00 PM EDT - Nov 19,2023, 08:00 PM EST
+      </div>
+    ),
+    problem: (
+      <div>
+        <li>→ Designing Digital Enterprises</li><br />
+        <li>→ Building Intelligent Products and Platforms</li><br />
+        <li>→ Solving Sustainability Challenges</li>
+      </div>
+    ),
+    process: (
+      <div>
+        <b>Eligibility Criteria:</b>
+        <br />
+        <br />
+        <ul>
+          <li>
+            • The participants will have to abide by the official rules provided.There is no entrance fee for participation.
+          </li>
+          <li>• This is an online hackathon, and you may participate from anywhere.</li>
+
+        </ul>
+        <br />
+        <br />
+        <b>Rules:</b>
+        <br />
+        <br />
+        <ul>
+          <li>
+            • Registration is open for both individuals and teams of up to five (5) members. If you would like to join a team, you have two options available: invite friends to form your team or browse registered participants (located in the Teams Tab) and request to join a team.
+          </li>
+          <br />
+          <li>
+            • *Once the Ideation phase ends, you may not join another team
+          </li>
+          <br />
+          <li>
+            •The hackathon will be held online. The hackathon Ideation phase starts on September 16, 2023, at 9 am PDT and ends on October 15, 2023, at 5 pm PDT. Judging Ideation phase with an announcement on October 23, 2023, at 9 am PDT on teams that will move forward to the development phase. The development phase starts on October 23, 2023, at 9 am PDT and ends on November 19, 2023, at 5 pm PDT. Winners will be announced on December 7, 2023, at 9 am PDT.<br />
+            In the Ideation phase, your team will be required to submit an idea as specified for this phase. The submissions will undergo evaluation, and to progress to the Development phase, your team must attain a score of 70 points or higher. This score will determine your eligibility to proceed to the next phase.
+
+          </li>
+          <br />
+          <li>
+            • There are 3 themes for the hackathon, and participants must submit a hack that falls under one of these themes.
+          </li>
+          <br />
+          <li>
+            • Participants can submit their hack as many times as they want, and the last hack will be considered as the final submission.
+          </li>
+          <br />
+          <li>
+            • Participants must come up with new and innovative ideas, and any copied idea will be disqualified.
+          </li>
+          <br />
+          <li>
+            • The hack must be developed entirely during the Hackathon duration.
+          </li>
+          <br />
+          <li>
+            • Participants can use freely available systems and open-source libraries.
+          </li>
+          <br />
+          <li>
+            • Participants must agree to abide by the terms and conditions of HackerEarth and Cyient Official Rules to participate in the hackathon.
+          </li>
+          <br />
+
+        </ul>
+      </div>
+    ),
+    judgingCriteria: (
+      <div>
+        <b>Ideation phase:-</b>
+        <br />
+        <ul>
+          <li>→ Applicability</li>
+          <li>→ Uniqueness</li>
+          <li>→ Feasibility</li>
+          <li>→ Clarity of Thought</li>
+          <li>→ Value and Relevance</li>
+        </ul>
+        <br />
+        <b>Development phase:-</b>
+        <br />
+        <ul>
+          <li>→ Functionality</li>
+          <li>→ Innovation</li>
+          <li>→ User Experience</li>
+          <li>→ Code Quality</li>
+          <li>→ Technical Difficulty</li>
+          <li>→ Scalability</li>
+          <li>→ Presentation and Communication</li>
+          <li>→ Impact and Usefulness</li>
+        </ul>
+      </div>
+    ),
+    reward: (
+      <div>
+        <ul>
+          <li>
+            • <b>High Potential (USD 3000):</b><br />
+            The prize will be awarded to the team or individual whose solution demonstrates the greatest potential for success and impact.
+
+          </li>
+          <li>
+            • <b>CYIENTIFIQ Value innovation Prize (1 per theme) (3) (USD 1000)</b><br />
+            The value innovation prize wil be provided to an outstanding team or individual in each theme who achieves the highest level of innovation and excellence.
+          </li>
+          <li>
+            • <b>Grand Prize (USD 10000)</b><br />
+            The grand prize is reserved for the ultimate champion of CyientifIQ Innovation League.
+          </li>
+          <li>
+            • <b>CYIENTIFIQ Champion (USD 5000)</b><br />
+            One dedicated prize honouring the team or individual whose overall solution demonstrates unparalleled originality, uniqueness, and visionary thinking.The grand prize is reserved for the ultimate champion of CyientifIQ Innovation League.
+          </li>
+        </ul>
+      </div>
+    ),
+  },
+  {
+    id: 8,
+    company: "Codegeist Unleashed 2023 ",
+    cover: IMG8,
+    about: (
+      <div>
+        <b>  ABOUT </b>
+        <br />
+        <br />
+        Gear up for Codegeist Unleashed - an exciting twist on Atlassian’s annual hackathon. This year, developers get a shot at winning cash prizes, PLUS the chance to compete live in Amsterdam at Atlassian Presents: Unleash and show off their AI building skills.
+        First place winners in each category will have the unique opportunity to live demo their app in front of Atlassian customers, rub elbows with the Atlassian team and take home an additional cash prize! Get ready to learn new skills on Atlassian's Forge platform and fuel the future of the workplace with AI.
+      </div>
+    ),
+    problem: (
+      <div>
+
+        <b> Codegeist Unleashed 2023 </b>
+        <br />
+        <br />
+        <li>Learn about AI tools and the Atlassian Forge platform</li>
+        <li>Get creative with new ways to use AI to improve workflows</li>
+        <li>Make connections within the Atlassian global developer community</li>
+        <li>Compete for $172,500 in prizes and trips to Amsterdam for the top 3 winners </li>
+      </div>
+    ),
+    process: (
+      <div>
+        <b> Who should Participate</b>
+        <br />
+        <br />
+        <li>
+          • Whether you're considering joining as a solo developer or assembling a team – consider this your formal invite. Still not sure if this is the right hackathon for you?
+          <ul>
+            <li>Developers</li>
+            <li>Startup founders or entrepreneurs</li>
+            <li>Designers</li>
+            <li>Students (high school to postgraduate)</li>
+            <li>Project Managers</li>
+            <li>Systems analyst</li>
+            <li>Business analyst</li>
+            <li>Jira and Confluence experts</li>
+          </ul>
+        </li>
+      </div>
+    ),
+    eligiblity: (
+      <div>
+        <b>REQUIREMENTS</b>
+        <br />
+        <br />
+        <em>What to build</em><br />
+        Build an AI app using Atlassian’s Forge platform in one of the following categories:<br />
+        <em>AI Apps for Developer Experience:</em><br />
+        Enable more efficient and seamless developer workflows by automating repetitive work and forecasting next actions. <br />
+        <em>AI Apps for Collaboration:</em><br />
+        Foster thoughtful and innovative collaboration across individuals, teams, and tools. <br />
+        <em>AI Apps for Data-Driven Insights</em><br />
+        Utilize data to make predictive recommendations that unearth useful and unexpected insights.<br />
+      </div>
+    ),
+    rounds: (
+      <div>
+        <b>ROUNDS</b>
+        <br />
+        <br />
+        <b>Codegeist Unleashed 2023 has two rounds:</b>
+
+        Qualifying Round: This round is open to all participants and takes place online from October 7th to October 20th, 2023. Participants will have 72 hours to complete a series of coding challenges and submit their solutions. The top 100 participants in each of the three categories will advance to the next round.<br />
+        Finals: The finals will take place live in Amsterdam at Atlassian Presents: Unleash on November 17th, 2023. The finalists will have 24 hours to develop and pitch their apps to a panel of judges. The winners will be announced at the end of the event.
+        Categories<br />
+
+        The three categories for Codegeist Unleashed 2023 are:
+        <br />
+
+        Forge: Build an app using Atlassian's Forge platform.
+        AI: Build an app that uses AI to improve the workplace.
+        Open: Build any app that you can think of that improves the workplace.
+      </div>
+    ),
+    prizes: (
+      <div>
+        <b>Prizes</b>
+        <br />
+        <br />
+        The total prize pool for Codegeist Unleashed 2023 is $172,500. The winners in each category will receive the following prizes:
+        <li>
+          1st place: $10,000
+          2nd place: $5,000
+          3rd place: $2,500
+        </li>
+      </div>
+    ),
+    judging: (
+      <div>
+        <b>JUDGING CRITERIA</b>
+        <br />
+        <br />
+        The judging criteria for Codegeist Unleashed 2023 are as follows:
+        <li>
+          Quality of the Idea: How original and creative is the app's idea? Does it solve a real-world problem? Is it well-conceived and thought-out?
+          Implementation of the Idea: How well is the app implemented? Is it easy to use and navigate? Is it well-coded and efficient?
+          Potential Impact: How much potential does the app have to impact the workplace? Could it be used by a large number of people? Does it have the potential to make a real difference?
+          Most Valuable Storytelling: How well is the app's story told? Does the pitch clearly and concisely explain the app's purpose and benefits? Is the pitch engaging and persuasive?
+          Responsible AI: How well does the app demonstrate responsible implementation of AI? Does it preserve privacy? Is it transparent? Does it create experiences that inspire trust and adherence to security best practices?
+        </li>
+        <br />
+        <b>Deadline: Oct 24, 2023 @ 11:45pm </b>
+      </div>
+    )
+  },
+  {
+    id: 10,
+    company: "DevFest Eket 2023 – Ecosolutions",
+    cover: IMG10,
+    about: (
+      <div>
+        <b> DevFest Eket 2023 – Ecosolutions for Students</b>
+        <br />
+        <br />
+        <p>
+          The "DevFest Eket 2023 - Ecosolutions" hackathon at DevFest Eket 2023 focuses on addressing environmental and sustainability challenges specific to the Eket region. Participants are challenged to develop innovative tech solutions that can contribute to a more sustainable and eco-friendly future for Eket and its surroundings.
+        </p>
+      </div>
+    ),
+    process: (
+      <div>
+        <h2> How do I register and login for the contest?</h2>
+        <p>
+          Registration process is common for India and Global participants.
+          Steps are as enumerated below:
+        </p>
+        <ul>
+          <li>
+            • Join the hackathon
+          </li>
+          <li>
+            • Register for DevFest Eket event here https://bit.ly/devfesteket23 
+          </li>
+          <li>• Form a team. Maximum 5 members</li>
+          <li>•Join discord channel https://discord.gg/bvpqUMyVjc </li>
+          <li>
+            • Pick a challenge from the list or challenges above or any outside the challenge list and  build out a Minimum Viable Product (MVP) to solve that problem. It can be a web or mobile or desktop app ocxr a productivity framework, so long as it adds value to the chosen sector.
+          </li>
+          <li>
+            • Make a minimum one minute video of the problem your team is trying to solve, send to the organizers, your video will be uploaded on our social media handles. You will invite people to link our page and like and share your team video.
+          </li>
+        </ul>
+        <p>
+          You are to build a web or mobile or desktop app ocxr a productivity framework that will help solve the challenges in any of the following domain
+        </p>
+        <ul>
+          <li>
+            • Clean Energy Solutions: Develop sustainable and renewable energy solutions tailored to the Eket region, whether it's solar, wind, or other clean energy sources.
+          </li>
+          <li>
+            •Waste Management Innovation: Create applications or devices that improve waste management processes, recycling, or waste-to-energy conversion within Eket.
+          </li>
+          <li>
+            •Smart Agriculture for Local Farmers: Build tech solutions that empower local farmers with data-driven insights, weather forecasts, and precision agriculture tools to enhance crop yields sustainably.
+          </li>
+          <li>
+            •Other domain
+          </li>
+        </ul>
+        <p>
+          What to submit?
+        </p>
+        <ul>
+          <li>
+            • A pitch deck explaining your project.
+          </li>
+          <li>
+            • Demo: You will demo and show the judges your project on the DevFest day. 
+          </li>
+          <li>
+            • Open Source Code: Your GitHub project code repository must include an open source license. Provide a link to your open source repository in your submission.
+          </li>
+          <li>
+            • Write up. Be sure to include a description of your project. Explain why you built your project and how it benefits the sector
+          </li>
+          <li>
+            • Top 3 Rankers will get a chance to win USD 20,000.
+          </li>
+        </ul>
+      </div>
+    ),
+    judgingCriteria: (
+      <div>
+        <ul>
+          <li>→ Technical Proficiency (30%)</li>
+          <li>→ Innovation and Creativity (20%)</li>
+          <li>→ Impact and sustainability (20%)</li>
+          <li>→ User Experience (UX) and Accessibility(15%)</li>
+          <li>→ Presentation and Pitch (15%)</li>
+        </ul>
+      </div>
+    ),
+    benefits: (
+      <div>
+        <ul>
+          <li>● It gives you an opportunity to brand your organization nationally.</li>
+          <li>● It gives recognition and visibility for your organization across all technical institutions in India.</li>
+          <li>● The young techies from all over the country offer out-of-the-box solutions to your problems.</li>
+          <li>● It provides an opportunity to be a part of world’s biggest open innovation movement.</li>
+          <li>● It gives an opportunity to work with some of the best talent in the country.</li>
+          <li>● Technology students across India compete to creatively solve problems and offer technical solutions.</li>
+        </ul>
+      </div>
+    ),
+    reward: (
+      <div>
+        <ul>
+          <li>1st Position - N50,000.00 + DevFest Swag</li>
+          <li>2nd Position - N30,000.00 + DevFest Swag</li>
+          <li>3rd Position - N20,000.00 + DevFest Swag</li>
+        </ul>
+      </div>
+    ),
+  },
+  {
+    id: 9,
+    company: "ICON Hyperbuild",
+    cover: IMG9,
+    about: (
+      <div>
+        <b>It is an online global hackathon that aims to build cross-chain solutions to expand the existing ICON cross-chain ecosystem</b>
+        <br />
+        <br />
+        The hackathon has no fixed number of rounds, but the submissions will be evaluated by the judges 
+        <br />
+        Submission Period: January 26th, 2023 – March 16th 2023
+        <br />
+        The winners will be announced on March 27, 2023
+      </div>
+    ),
+    problem: (
+      <div>
+        <li>→ The hackathon website says that you can work on any problem that can be solved by cross-chain interoperability, such as decentralized finance, gaming, social media, identity, etc. You can also use any other blockchain platform that supports BTP (Blockchain Transmission Protocol) or xCall (Cross-Chain Call) to connect with ICON2.</li>
+        <li>→ Some examples of possible problems are:</li>
+        <li>→ Creating a cross-chain bridge for token swaps between different blockchains</li>
+        <li>→ Building a decentralized exchange that supports multiple assets and liquidity pools</li>
+        <li>→ Developing a game that integrates NFTs from different blockchains</li>
+        <li>→ Implementing a social media platform that rewards users with tokens from different blockchains</li>
+        <li>→ Designing a digital identity system that verifies credentials across different blockchains</li>
+      </div>
+    ),
+    process: (
+      <div>
+        <b>Note:</b>
+        <br />
+        <br />
+        <ul>
+          <li>
+            •<i> Join ICON's Official Discord to find teammates, interact with fellow ICON developers, receive ICON development help and get all your technical questions answered.</i>
+          </li>
+          <li>
+            •<i>Get all your ICON development resources at ICON Developer Portal.</i>
+          </li>
+          <li>
+            • <i>Public Voting will contribute in determining the hackathon winners. Share your project on social media and gather as much +1 community support as possible.</i>
+          </li>
+          <li>
+            • <i>All prizes are awarded in ICX, ICON's native token, in the equivalent USD value.</i>
+          </li>
+        </ul>
+        <br />
+        <br />
+        <b>Eligibility Criteria:</b>
+        <br />
+        <br />
+        <ul>
+          <li> <b>•Idea:</b> We focus on simple but unique ideas that approach prospective solutions to expand the ICON 2.0 ecosystem and how well this is presented </li>
+          <li> <b>•Implementation:</b> How the idea is implemented. How good is the overall user experience? Is it easy to use? Is the design appealing to end users?
+          </li>
+          <li>
+          <b>•	Development: </b>How much of the ICON protocol is being interfaced with or utilized via SCORE? How useful is the blockchain implementation of the project?
+
+          </li>
+          <li>
+          <b>•	Interoperability: </b>Does the project contribute to ICON's interoperable future by utilizing ICON Project interoperability features such as BTP or ICON Bridge technology?
+
+          </li>
+          <li> <b>•	Value:</b> Is the project able to be developed continuously in a sustainable fashion?
+          </li>
+        </ul>
+        <br />
+        <br />
+        <b>Requirements:</b>
+        <br />
+        <br />
+        <ul>
+          <li>Cross-chain Infrastructure</li>
+          <li>Metaverse</li>
+          <li>Social Impact / Public Good</li>
+          <li>NFT & Gaming</li>
+          <li>Utility</li>
+        </ul>
+      </div>
+    ),
+    reward: (
+      <div>
+        <ul>
+          <li>
+            $20,000 USD in ICX
+          </li>
+          <li>
+            $10,000 USD in ICX
+          </li>
+          <li>
+            $5,000 USD in ICX
+          </li>
+          <li>
+            Category Prize - Tooling & Infrastructure:
+            <ul>
+              <li>$700 USD in ICX</li>
+            </ul>
+          </li>
+          <li>
+            Category Prize - Social Impact / Public Good:
+            <ul>
+              <li>$700 USD in ICX</li>
+            </ul>
+          </li>
+          <li>
+            Category Prize - NFT & Gaming:
+            <ul>
+              <li>$700 USD in ICX</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    ),
+  }
 ];
