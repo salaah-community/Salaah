@@ -3,7 +3,7 @@ import { useRef } from "react";
 import "../styles/Footer.css";
 import { AiOutlineMail } from "react-icons/ai";
 import { FiInstagram } from "react-icons/fi";
-import {FiYoutube} from "react-icons/fi";
+import { FiYoutube } from "react-icons/fi";
 import Logo from "../assets/logo2.png";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
@@ -105,14 +105,14 @@ const Footer = () => {
           <div className="col">
             <ul>
               <li>
-                <Link to="/opportunities/defence">Defence</Link>
+                <Link to="/defence/defence">Defence</Link>
               </li>
               <li>
-                <Link to="/opportunities/company">Corporate</Link>
+                <Link to="/opportunities">Corporate</Link>
               </li>
               <li>
-                <Link to="/opportunities/culture">Cultural</Link>
-              </li>              
+                <Link to="/culture/social-media-influencer">Cultural</Link>
+              </li>
             </ul>
           </div>
           <div className="col last">
@@ -121,12 +121,12 @@ const Footer = () => {
               newsletter.
             </h3>
             <form ref={form} onSubmit={sendEmail}>
-            <input
-              type="email"
-              name="email"
-              placeholder="Your email here"
-              className="newsletter Poppins"
-            />
+              <input
+                type="email"
+                name="email"
+                placeholder="Your email here"
+                className="newsletter Poppins"
+              />
             </form>
           </div>
         </div>
