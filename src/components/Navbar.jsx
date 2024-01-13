@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import Logo from "../assets/logo2.png";
 import { motion } from "framer-motion";
-import {CgMenuGridR} from 'react-icons/cg'
-import {IoCloseSharp} from 'react-icons/io5';
+import { CgMenuGridR } from 'react-icons/cg'
+import { IoCloseSharp } from 'react-icons/io5';
 import '../styles/Navbar.css';
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -18,15 +18,15 @@ function Navbar() {
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
       >
-      
-      <div className="nav-logo-div"><Link to="/">
-        <img
-          className="log_img"
-          src={Logo}
-          style={{ maxWidth: "100%", maxHeight: "100%", display: "block", marginTop:"25px" }}
-          alt=""
-          onClick={closeMobileMenu}
-        /></Link></div>
+
+        <div className="nav-logo-div"><Link to="/">
+          <img
+            className="log_img"
+            src={Logo}
+            style={{ maxWidth: "100%", maxHeight: "100%", display: "block", marginTop: "25px" }}
+            alt=""
+            onClick={closeMobileMenu}
+          /></Link></div>
         <ul className={click ? "nav-menu active" : "nav-menu"}>
           {/* <li className="nav-item">
             <NavLink to="/" className="nav-links" onClick={closeMobileMenu}>
@@ -60,7 +60,7 @@ function Navbar() {
               Gallery
             </NavLink>
           </li> */}
-          <motion.li
+          {/* <motion.li
             className="nav-item"
             initial={{ opacity: 0.6 }}
             whileHover={{
@@ -77,7 +77,7 @@ function Navbar() {
             >
               Gallery
             </NavLink>
-          </motion.li>
+          </motion.li> */}
           <motion.li
             className="nav-item"
             initial={{ opacity: 0.6 }}
@@ -96,7 +96,7 @@ function Navbar() {
               Career Tracks
             </NavLink>
           </motion.li>
-          
+
           <motion.li
             className="nav-item"
             initial={{ opacity: 0.6 }}
@@ -170,10 +170,10 @@ function Navbar() {
               Updates
             </NavLink>
           </motion.li>
-          
+
         </ul>
         <div className="menu-icon" onClick={handleClick}>
-          { click ? <IoCloseSharp /> : <CgMenuGridR /> }
+          {click ? <IoCloseSharp /> : <CgMenuGridR />}
         </div>
       </motion.nav>
     </div>
