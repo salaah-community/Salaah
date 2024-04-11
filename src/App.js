@@ -18,46 +18,46 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path='/' element={<Home/>} />
+          <Route path='/' element={<Home />} />
         </Routes>
         <Routes>
-          <Route path='/gallery' element={<MasonryGallery/>} />
+          <Route path='/gallery' element={<MasonryGallery />} />
         </Routes>
         <Routes>
-          <Route path='/team' element={<Team/>} />
-        </Routes> 
-        <Routes>
-          <Route path='/opportunities' element={<Opportunity/>} />
+          <Route path='/team' element={<Team />} />
         </Routes>
         <Routes>
-          <Route path='/contact' element={<ContactUs/>} />
+          <Route path='/opportunities' element={<Opportunity />} />
+        </Routes>
+        <Routes>
+          <Route path='/contact' element={<ContactUs />} />
         </Routes>
         <Routes>
           <Route path='/faq' element={<Faq />} />
-        </Routes>        
-        <Routes>
-        <Route path='/company/:slug' element={<SinglePost/>} />
         </Routes>
         <Routes>
-        <Route path='/defence/:slug' element={<SinglePost/>} />
+          <Route path='/company/:slug' element={<SinglePost />} />
         </Routes>
         <Routes>
-        <Route path='/hr/:slug' element={<SinglePost/>} />
+          <Route path='/defence/:slug' element={<SinglePost />} />
         </Routes>
         <Routes>
-        <Route path='/startup/:slug' element={<SinglePost/>} />
+          <Route path='/hr/:slug' element={<SinglePost />} />
         </Routes>
         <Routes>
-        <Route path='/culture/:slug' element={<SinglePost/>} />
+          <Route path='/startup/:slug' element={<SinglePost />} />
         </Routes>
         <Routes>
-        <Route path='/hackathon' element={<Hackathon/>}/>
+          <Route path='/culture/:slug' element={<SinglePost />} />
         </Routes>
         <Routes>
-        <Route path='/updates' element={<Updates/>}/>
+          <Route path='/hackathon' element={<Hackathon />} />
         </Routes>
         <Routes>
-        <Route path='/hackathon/:id' element={<Hackathon_Page/>} />
+          <Route path='/updates' element={<Updates />} />
+        </Routes>
+        <Routes>
+          <Route path='/hackathon/:id' element={<Hackathon_Page />} />
         </Routes>
       </BrowserRouter>
     </div>

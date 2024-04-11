@@ -6,6 +6,12 @@ export const teamWorking = [
     img: "",
   },
   {
+    name: "Mr. Ayush Mishra",
+    title: "Technical Operation	",
+    img: "",
+  },
+
+  {
     name: "Ms. Kanishka Varshney",
     title: "Technical Operation	",
     img: "",
@@ -32,11 +38,6 @@ export const teamWorking = [
   },
   //Social Media and Marketing
   {
-    name: "Mr. Ayush Sirohi",
-    title: "Social Media & Marketing",
-    img: "",
-  },
-  {
     name: "Mr. Dev Teotia",
     title: "Social Media & Marketing",
     img: "",
@@ -47,12 +48,17 @@ export const teamWorking = [
     img: "",
   },
   {
+    name: "Ms. Ishanvi Chauhan",
+    title: "Social Media & Marketing",
+    img: "",
+  },
+  {
     name: "Ms. Prajakta Singhal",
     title: "Social Media & Marketing",
     img: "",
   },
   {
-    name: "Ms. Radhika Gupta",
+    name: "Mr. Saurabh Agrawal",
     title: "Social Media & Marketing",
     img: "",
   },
@@ -94,22 +100,18 @@ export const teamWorking = [
   },
   //Mock Interview & Technical Program
   {
-    name: "Ms. Nikita Baranwal",
+    name: "Mr. Gopal Aggarwal",
     title: "Mock Interview & Technical Program",
     img: "",
-  },{
+  }, {
     name: "Ms. Nishtha Srivastava",
     title: "Mock Interview & Technical Program",
     img: "",
-  },{
+  }, {
     name: "Mr. Shivansh Rastogi",
     title: "Mock Interview & Technical Program",
     img: "",
-  },{
-    name: "Ms. Srishti Rajput",
-    title: "Mock Interview & Technical Program",
-    img: "",
-  },{
+  }, {
     name: "Ms. Tashvi Chaudhary",
     title: "Mock Interview & Technical Program",
     img: "",
@@ -119,20 +121,28 @@ export const teamWorking = [
     name: "Mr. Aradhya Srivastava",
     title: "Resource Management & Activities",
     img: "",
-  },{
+  }, {
     name: "Mr. Bhaskar Singh",
     title: "Resource Management & Activities",
     img: "",
-  },{
+  }, {
     name: "Mr. Harsh Mavi",
     title: "Resource Management & Activities",
     img: "",
-  },{
+  }, {
     name: "Ms. Prachi Singh",
     title: "Resource Management & Activities",
     img: "",
-  },{
+  }, {
+    name: "Mr. Satyam Sharma",
+    title: "Resource Management & Activities",
+    img: "",
+  }, {
     name: "Mr. Utkarsh Kumar",
+    title: "Resource Management & Activities",
+    img: "",
+  }, {
+    name: "Mr. Vinit Baishkiyar",
     title: "Resource Management & Activities",
     img: "",
   },
