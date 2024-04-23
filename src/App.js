@@ -19,44 +19,19 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<Home />} />
-        </Routes>
-        <Routes>
+          <Route path='/*' element={<PageNotFound />} />
           <Route path='/gallery' element={<MasonryGallery />} />
-        </Routes>
-        <Routes>
           <Route path='/team' element={<Team />} />
-        </Routes>
-        <Routes>
           <Route path='/opportunities' element={<Opportunity />} />
-        </Routes>
-        <Routes>
           <Route path='/contact' element={<ContactUs />} />
-        </Routes>
-        <Routes>
           <Route path='/faq' element={<Faq />} />
-        </Routes>
-        <Routes>
           <Route path='/company/:slug' element={<SinglePost />} />
-        </Routes>
-        <Routes>
           <Route path='/defence/:slug' element={<SinglePost />} />
-        </Routes>
-        <Routes>
           <Route path='/hr/:slug' element={<SinglePost />} />
-        </Routes>
-        <Routes>
           <Route path='/startup/:slug' element={<SinglePost />} />
-        </Routes>
-        <Routes>
           <Route path='/culture/:slug' element={<SinglePost />} />
-        </Routes>
-        <Routes>
           <Route path='/hackathon' element={<Hackathon />} />
-        </Routes>
-        <Routes>
           <Route path='/updates' element={<Updates />} />
-        </Routes>
-        <Routes>
           <Route path='/hackathon/:id' element={<Hackathon_Page />} />
         </Routes>
       </BrowserRouter>
