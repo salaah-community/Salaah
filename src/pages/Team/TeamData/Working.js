@@ -89,11 +89,6 @@ export const teamWorking = [
     img: "",
   },
   {
-    name: "Mr. Sarthak Tyagi",
-    title: "Mentor-Mentee & Outreach",
-    img: "",
-  },
-  {
     name: "Ms. Tanishka Singh",
     title: "Mentor-Mentee & Outreach",
     img: "",
@@ -131,10 +126,6 @@ export const teamWorking = [
     img: "",
   }, {
     name: "Ms. Prachi Singh",
-    title: "Resource Management & Activities",
-    img: "",
-  }, {
-    name: "Mr. Satyam Sharma",
     title: "Resource Management & Activities",
     img: "",
   }, {
