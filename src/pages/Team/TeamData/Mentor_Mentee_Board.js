@@ -11,6 +11,16 @@ import ayush from "../../../assets/team/ayush.jpeg";
 import shrey from "../../../assets/team/shreyvashistha.jpg";
 import gaurav from "../../../assets/team/gauravgulati.jpeg";
 import ayushT from "../../../assets/team/Ayush Tyagi.jpg";
+import harshit from "../../../assets/team/Harshit Singh Mahara.jpg";
+import Naman from "../../../assets/team/Naman Goel.jpeg";
+import parth from "../../../assets/team/Parth Singhal.jpg";
+import kavya from "../../../assets/team/Kavya Tyagi.jpg";
+import Tanisha from "../../../assets/team/tanisha.jpeg";
+import tanya from "../../../assets/team/Tanya.jpg";
+import faraz from "../../../assets/team/Faraz Hafeez.jpg";
+import khushi from "../../../assets/team/kushi.jpeg";
+import ish from "../../../assets/team/ish.jpg";
+import vivek from "../../../assets/team/vivek.jpeg";
 
 export const mentors = [
   {
@@ -65,5 +75,45 @@ export const mentors = [
   {
     name: "Mr.Ayush Malik",
     img: ayush,
+  },
+  {
+    name: "Mr. Harshit Singh Mahara",
+    img: harshit
+  },
+  {
+    name: "Mr. Naman Goel",
+    img: Naman
+  },
+  {
+    name: "Mr. Parth Singhal",
+    img: parth
+  },
+  {
+    name: "Ms. Kavya Tyagi",
+    img: kavya
+  },
+  {
+    name: "Ms. Tanisha Bhatt",
+    img: Tanisha
+  },
+  {
+    name: "Ms. Tanya Srivastava",
+    img: tanya
+  },
+  {
+    name: "Mr. Faraz Hafeez",
+    img: faraz
+  },
+  {
+    name: "Ms. Khushi Chaudhary",
+    img: khushi
+  },
+  {
+    name: "Mr. Ish Purwar",
+    img: ish
+  },
+  {
+    name: "Mr. Vivek Kumar Tiwari",
+    img: vivek
   },
 ];
