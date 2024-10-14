@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/About.css";
-import logo from "../assets/groupp.jpg";
+import logo from "../assets/team_photo.jpg";
 const About = () => {
   return (
     <div className="grand_parent about_grand_parent">
