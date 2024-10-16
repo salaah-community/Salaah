@@ -1,7 +1,7 @@
-import React, { useEffect } from 'react';
-import '../styles/Hero.css';
+import { motion } from 'framer-motion';
+import React from 'react';
 import { Link } from 'react-router-dom';
-import {motion} from 'framer-motion'
+import '../styles/Hero.css';
 
 const Hero = () => {
   return (
@@ -13,7 +13,7 @@ const Hero = () => {
           <h1 className="hello"><span className="Ultrabold">Design the</span> <span className="update Ultrabold">Future</span></h1>
         </div>
         <div className="Regular container hero-content">
-          <p className="hero-content-text">Connecting our current students with the alumni to recieve career guidance.</p>
+          <p className="hero-content-text">Connecting our current students with the alumni to receive career guidance.</p>
           <div>
             {/* <Link to="/opportunities" className="btn">Enter Now!</Link> */}
             <Link to="/opportunities">

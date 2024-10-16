@@ -1,25 +1,25 @@
-import bhoomi from "../../../assets/team/bhoomi.jpg";
-import saurabh from "../../../assets/team/saurabhsrivastava.jpg";
-import darshika from "../../../assets/team/darshika.jpeg";
-import aryan from "../../../assets/team/aryanporwal.jpg";
-import anshika from "../../../assets/team/anshikach.JPG";
-import poras from "../../../assets/team/poras.jpeg";
 import amar from "../../../assets/team/amar.jpg";
-import keshav from "../../../assets/team/keshavjha.jpeg";
-import injila from "../../../assets/team/injila.jpg";
-import ayush from "../../../assets/team/ayush.jpeg";
-import shrey from "../../../assets/team/shreyvashistha.jpg";
-import gaurav from "../../../assets/team/gauravgulati.jpeg";
+import anshika from "../../../assets/team/anshikach.JPG";
+import aryan from "../../../assets/team/aryanporwal.jpg";
 import ayushT from "../../../assets/team/Ayush Tyagi.jpg";
+import ayush from "../../../assets/team/ayush.jpeg";
+import bhoomi from "../../../assets/team/bhoomi.jpg";
+import darshika from "../../../assets/team/darshika.jpeg";
+import faraz from "../../../assets/team/Faraz Hafeez.jpg";
+import gaurav from "../../../assets/team/gauravgulati.jpeg";
 import harshit from "../../../assets/team/Harshit Singh Mahara.jpg";
+import injila from "../../../assets/team/injila.jpg";
+import ish from "../../../assets/team/ish.jpg";
+import kavya from "../../../assets/team/Kavya Tyagi.jpg";
+import keshav from "../../../assets/team/keshavjha.jpeg";
+import khushi from "../../../assets/team/kushi.jpeg";
 import Naman from "../../../assets/team/Naman Goel.jpeg";
 import parth from "../../../assets/team/Parth Singhal.jpg";
-import kavya from "../../../assets/team/Kavya Tyagi.jpg";
-import Tanisha from "../../../assets/team/tanisha.jpeg";
+import poras from "../../../assets/team/poras.jpeg";
+import saurabh from "../../../assets/team/saurabhsrivastava.jpg";
+import shrey from "../../../assets/team/shreyvashistha.jpg";
+import Tanisha from "../../../assets/team/tanisha.jpg";
 import tanya from "../../../assets/team/Tanya.jpg";
-import faraz from "../../../assets/team/Faraz Hafeez.jpg";
-import khushi from "../../../assets/team/kushi.jpeg";
-import ish from "../../../assets/team/ish.jpg";
 import vivek from "../../../assets/team/vivek.jpeg";
 
 export const mentors = [
@@ -77,10 +77,6 @@ export const mentors = [
     img: ayush,
   },
   {
-    name: "Mr. Harshit Singh Mahara",
-    img: harshit
-  },
-  {
     name: "Mr. Naman Goel",
     img: Naman
   },
@@ -91,6 +87,10 @@ export const mentors = [
   {
     name: "Ms. Kavya Tyagi",
     img: kavya
+  },
+  {
+    name: "Mr. Harshit Singh Mahara",
+    img: harshit
   },
   {
     name: "Ms. Tanisha Bhatt",
