@@ -1,17 +1,17 @@
 import React from "react";
 import TeamCards from "./TeamCards";
 // import AnimatedCursor from "react-animated-cursor";
-import "./Team.css";
-import Navbar from "../../components/Navbar";
+import { motion } from 'framer-motion';
 import Footer from "../../components/Footer";
-import { teamHeads } from "./TeamData/Heads";
+import Navbar from "../../components/Navbar";
+import "./Team.css";
 import { teamBoard } from "./TeamData/Board";
-import { teamMentors } from "./TeamData/Mentors";
 import { teamExec } from "./TeamData/Executives";
+import { teamHeads } from "./TeamData/Heads";
 import { teamLeads } from "./TeamData/Leads";
-import { teamWorking } from "./TeamData/Working";
 import { mentors } from "./TeamData/Mentor_Mentee_Board";
-import { motion } from 'framer-motion'
+import { teamMentors } from "./TeamData/Mentors";
+import { teamWorking } from "./TeamData/Working";
 import TeamList from "./TeamList";
 
 const Team = () => {
@@ -103,7 +103,7 @@ const Team = () => {
               </div>
             </div>
           </div>
-          {/* <div id="team-section">
+          <div id="team-section">
               <h1 className="team_headline Regular">Working Committee</h1>
               <div style={{ marginBottom: "7rem",marginTop: "3rem" }}>
                 <div className="teamCard_grid">
@@ -112,7 +112,7 @@ const Team = () => {
                   })}
                 </div>
               </div>
-            </div>             */}
+            </div>            
         </div>
         <Footer />
       </motion.div>
