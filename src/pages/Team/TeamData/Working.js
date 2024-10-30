@@ -1,140 +1,138 @@
 export const teamWorking = [
+  
+  //Social Media and Marketing
+  {
+    name: "Mr. Ansh Choudhary",
+    title: "Social Media & Marketing",
+    img: "",
+  },
+  {
+    name: "Mr. Asad Khan",
+    title: "Social Media & Marketing",
+    img: "",
+  },
+  {
+    name: "Ms. Chanchal Mathur",
+    title: "Social Media & Marketing",
+    img: "",
+  },
+  {
+    name: "Mr. Preetam Ray",
+    title: "Social Media & Marketing",
+    img: "",
+  },
+  {
+    name: "Mr. Ritesh Pandey",
+    title: "Social Media & Marketing",
+    img: "",
+  },
+  {
+    name: "Mr. Shikhar Singh",
+    title: "Social Media & Marketing",
+    img: "",
+  },
+  //Outreach Department
+  {
+    name: "Mr. Adarsh Prakash Singh",
+    title: "Outreach",
+    img: "",
+  },
+  {
+    name: "Ms. Ananya Chaturvedi",
+    title: "Outreach",
+    img: "",
+  },
+  {
+    name: "Mr. Aryan Gupta",
+    title: "Outreach",
+    img: "",
+  },
+  {
+    name: "Mr. Ayush Gautam",
+    title: "Outreach",
+    img: "",
+  },
+  {
+    name: "Mr. Harshit Agrawal",
+    title: "Outreach",
+    img: "",
+  },
+  {
+    name: "Ms. Taniska Singh",
+    title: "Outreach",
+    img: "",
+  },
   {
     //Technical Operations
-    name: "Mr. Ayush Kumar Gupta",
+    name: "Ms. Bhumi Bhardwaj",
     title: "Technical Operation	",
     img: "",
   },
   {
-    name: "Mr. Ayush Mishra",
+    name: "Ms. Radhika Chauhan",
     title: "Technical Operation	",
     img: "",
   },
 
   {
-    name: "Ms. Kanishka Varshney",
+    name: "Mr. Ravi Choudhary",
     title: "Technical Operation	",
     img: "",
   },
   {
-    name: "Mr. Mayank Srivastava",
+    name: "Mr. Shubham Chaudhary",
     title: "Technical Operation	",
     img: "",
   },
+  //Content & Documentation Department
   {
-    name: "Mr. Priyank Aggarwal",
-    title: "Technical Operation	",
-    img: "",
-  },
-  {
-    name: "Ms. Shruti Mohanty",
-    title: "Technical Operation	",
-    img: "",
-  },
-  {
-    name: "Mr. Vijit Verma",
-    title: "Technical Operation	",
-    img: "",
-  },
-  //Social Media and Marketing
-  {
-    name: "Mr. Dev Teotia",
-    title: "Social Media & Marketing",
-    img: "",
-  },
-  {
-    name: "Mr. Divyam Kumar",
-    title: "Social Media & Marketing",
-    img: "",
-  },
-  {
-    name: "Ms. Ishanvi Chauhan",
-    title: "Social Media & Marketing",
-    img: "",
-  },
-  {
-    name: "Ms. Prajakta Singhal",
-    title: "Social Media & Marketing",
-    img: "",
-  },
-  {
-    name: "Mr. Saurabh Agrawal",
-    title: "Social Media & Marketing",
-    img: "",
-  },
-  {
-    name: "Mr. Utkarsh Sharma",
-    title: "Social Media & Marketing",
-    img: "",
-  },
-  //Menter-Mentee & Outreach
-  {
-    name: "Ms. Anshika Verma",
-    title: "Mentor-Mentee & Outreach",
-    img: "",
-  },
-  {
-    name: "Mr. Devansh Bajaj",
-    title: "Mentor-Mentee & Outreach",
-    img: "",
-  },
-  {
-    name: "Ms. Jiya",
-    title: "Mentor-Mentee & Outreach",
-    img: "",
-  },
-  {
-    name: "Mr. Kartik Kaushik",
-    title: "Mentor-Mentee & Outreach",
-    img: "",
-  },
-  {
-    name: "Ms. Tanishka Singh",
-    title: "Mentor-Mentee & Outreach",
-    img: "",
-  },
-  //Mock Interview & Technical Program
-  {
-    name: "Mr. Gopal Aggarwal",
-    title: "Mock Interview & Technical Program",
+    name: "Ms. Khushbu Kumari",
+    title: "Content & Documentation",
     img: "",
   }, {
-    name: "Ms. Nishtha Srivastava",
-    title: "Mock Interview & Technical Program",
+    name: "Mr. Mradul Yash",
+    title: "Content & Documentation",
     img: "",
   }, {
-    name: "Mr. Shivansh Rastogi",
-    title: "Mock Interview & Technical Program",
+    name: "Mr. Parv Chaudhary",
+    title: "Content & Documentation",
     img: "",
   }, {
-    name: "Ms. Tashvi Chaudhary",
-    title: "Mock Interview & Technical Program",
+    name: "Mr. Priyanshu Jha",
+    title: "Content & Documentation",
+    img: "",
+  }, {
+    name: "Mr. Satyam Singh ",
+    title: "Content & Documentation",
     img: "",
   },
-  //Resource Management & Activities
+  //Planning & Strategy Department
   {
-    name: "Mr. Aradhya Srivastava",
-    title: "Resource Management & Activities",
+    name: "Mr. Satyam Kumar Mishra",
+    title: "Planning & Strategy",
     img: "",
   }, {
-    name: "Mr. Bhaskar Singh",
-    title: "Resource Management & Activities",
+    name: "Mr. Aradhya Maheshwari",
+    title: "Planning & Strategy",
     img: "",
   }, {
-    name: "Mr. Harsh Mavi",
-    title: "Resource Management & Activities",
+    name: "Mr. Hariom Buchasia",
+    title: "Planning & Strategy",
     img: "",
   }, {
-    name: "Ms. Prachi Singh",
-    title: "Resource Management & Activities",
-    img: "",
-  }, {
-    name: "Mr. Utkarsh Kumar",
-    title: "Resource Management & Activities",
-    img: "",
-  }, {
-    name: "Mr. Vinit Baishkiyar",
-    title: "Resource Management & Activities",
+    name: "Mr. Kanishk Sharma",
+    title: "Planning & Strategy",
     img: "",
   },
+  {
+    name: "Ms. Nazia Bano",
+    title: "Planning & Strategy",
+    img: "",
+  },
+  {
+    name: "Ms. Saumya",
+    title: "Planning & Strategy",
+    img: "",
+  },
+  
 ];

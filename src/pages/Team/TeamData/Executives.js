@@ -1,4 +1,4 @@
-import Anshika from '../../../assets/team/anshika_verma.jpeg'
+import Anshika from '../../../assets/team/anshika_verma.jpg'
 import Divyam from '../../../assets/team/divyam_kumar.JPG'
 import Tashvi from '../../../assets/team/tashvi_chaudhary.jpg'
 import UtkarshK from '../../../assets/team/utkarsh_kumar.jpg'
