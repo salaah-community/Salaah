@@ -5,7 +5,7 @@ import gopal from '../../../assets/team/gopal_aggarwal.jpg'
 import kartik from '../../../assets/team/kartik_kaushik.jpeg'
 import mayank from '../../../assets/team/mayank_srivastava.jpeg'
 import prachi from '../../../assets/team/prachi_singh.jpeg'
-import prajakta from '../../../assets/team/prajakta_singhal.jpg'
+
 import priyank from '../../../assets/team/priyank_aggarwal.jpg'
 import saurabh from '../../../assets/team/saurabh_agarwal.jpg'
 import shruti from '../../../assets/team/shruti_mohanty.jpg'
@@ -14,11 +14,7 @@ import vinit from '../../../assets/team/vinit_baishkiyar.jpeg'
 
 export const teamLeads = [
     // Technical Operations
-    {
-        name: "Mr. Vijit Verma",
-        title: 'Technical Operations',
-        img: vijit
-    },
+   
     {
         name: "Mr. Ayush Kumar Gupta",
         title: 'Technical Operations',
@@ -36,9 +32,9 @@ export const teamLeads = [
         img: priyank
     },
     {
-        name: "Ms. Prajakta Singhal",
-        title: 'Social Media & Marketing',
-        img: prajakta
+        name: "Mr. Vijit Verma",
+        title: 'Technical Operations',
+        img: vijit
     },
     {
         name: "Mr. Saurabh Agrawal",
