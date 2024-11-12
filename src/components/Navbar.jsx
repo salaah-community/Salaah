@@ -77,7 +77,7 @@ function Navbar() {
             >
               Gallery
             </NavLink>
-          </motion.li> */}
+          </motion.li>  */}
           <motion.li
             className="nav-item"
             initial={{ opacity: 0.6 }}
