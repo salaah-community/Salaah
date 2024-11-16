@@ -33,7 +33,7 @@ const Footer = () => {
           <div className="col first">
             <img src={Logo} alt="logo" />
             <p>
-              © Salaah, The Mentor Community. 2021- 2022. All rights reserved.
+              ©Salaah, The Mentor Community. <br />2024- 2025. All rights reserved.
             </p>
           </div>
           <div className="col">

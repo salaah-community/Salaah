@@ -51,7 +51,7 @@ function Navbar() {
               Home
             </NavLink>
           </motion.li>
-          {/* <li className="nav-item">
+          <li className="nav-item">
             <NavLink
               to="/gallery"
               className="nav-links"
@@ -59,7 +59,7 @@ function Navbar() {
             >
               Gallery
             </NavLink>
-          </li> */}
+          </li>
           {/* <motion.li
             className="nav-item"
             initial={{ opacity: 0.6 }}
