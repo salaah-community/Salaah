@@ -4,6 +4,7 @@ import "../styles/Footer.css";
 import { AiOutlineMail } from "react-icons/ai";
 import { FiInstagram } from "react-icons/fi";
 import { FiYoutube } from "react-icons/fi";
+import { FiLinkedin } from "react-icons/fi";
 import Logo from "../assets/logo2.png";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
