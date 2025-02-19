@@ -8,7 +8,7 @@ import prachi from '../../../assets/team/prachi_singh.jpeg'
 import priyank from '../../../assets/team/priyank_aggarwal.jpg'
 import saurabh from '../../../assets/team/saurabh_agarwal.jpg'
 import shruti from '../../../assets/team/shruti_mohanty.jpg'
-import vijit from '../../../assets/team/vijit_verma.png'
+import vijit from '../../../assets/team/vijit_verma.jpg'
 import vinit from '../../../assets/team/vinit_baishkiyar.jpeg'
 
 export const teamLeads = [
