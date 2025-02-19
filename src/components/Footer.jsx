@@ -99,6 +99,23 @@ const Footer = () => {
                     <FiYoutube size={24} />
                   </a>
                 </motion.li>
+                <motion.li
+                  initial={{ opacity: 0.6 }}
+                  whileHover={{
+                    scale: 1.2,
+                    transition: { duration: 0.5 },
+                  }}
+                  whileTap={{ scale: 0.9 }}
+                  whileInView={{ opacity: 1 }}
+                  style={{ padding: "1rem 0 1rem 1rem" }}
+                >
+                  <a
+                    style={{ color: "#c8b8db" }}
+                    href="https://www.linkedin.com/company/salaah-the-mentor-community/"
+                  >
+                    <FiLinkedin size={24} />
+                  </a>
+                </motion.li>
               </ul>
             </ul>
           </div>
