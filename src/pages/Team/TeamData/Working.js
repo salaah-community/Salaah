@@ -1,6 +1,6 @@
 export const teamWorking = [
-  
-  //Social Media and Marketing
+
+  // Social Media and Marketing
   {
     name: "Mr. Ansh Choudhary",
     title: "Social Media & Marketing",
@@ -12,7 +12,12 @@ export const teamWorking = [
     img: "",
   },
   {
-    name: "Ms. Chanchal Mathur",
+    name: "Mr. Harshit Gupta",
+    title: "Social Media & Marketing",
+    img: "",
+  },
+  {
+    name: "Mr. Mujtaba Haider",
     title: "Social Media & Marketing",
     img: "",
   },
@@ -22,16 +27,12 @@ export const teamWorking = [
     img: "",
   },
   {
-    name: "Mr. Ritesh Pandey",
-    title: "Social Media & Marketing",
-    img: "",
-  },
-  {
     name: "Mr. Shikhar Singh",
     title: "Social Media & Marketing",
     img: "",
   },
-  //Outreach Department
+
+  // Outreach Department
   {
     name: "Mr. Adarsh Prakash Singh",
     title: "Outreach",
@@ -43,12 +44,12 @@ export const teamWorking = [
     img: "",
   },
   {
-    name: "Mr. Aryan Gupta",
+    name: "Mr. Divyanshu Chaubey",
     title: "Outreach",
     img: "",
   },
   {
-    name: "Mr. Ayush Gautam",
+    name: "Mr. Gaurav Singh",
     title: "Outreach",
     img: "",
   },
@@ -58,68 +59,87 @@ export const teamWorking = [
     img: "",
   },
   {
-    name: "Ms. Taniska Singh",
+    name: "Mr. Ritesh Pandey",
     title: "Outreach",
     img: "",
   },
+
+  // Technical Operations
   {
-    //Technical Operations
+    name: "Mr. Anurag Singh",
+    title: "Technical Operation",
+    img: "",
+  },
+  {
     name: "Ms. Bhumi Bhardwaj",
-    title: "Technical Operation	",
+    title: "Technical Operation",
     img: "",
   },
   {
     name: "Ms. Radhika Chauhan",
-    title: "Technical Operation	",
+    title: "Technical Operation",
     img: "",
   },
-
   {
     name: "Mr. Ravi Choudhary",
-    title: "Technical Operation	",
+    title: "Technical Operation",
     img: "",
   },
   {
     name: "Mr. Shubham Chaudhary",
-    title: "Technical Operation	",
+    title: "Technical Operation",
     img: "",
   },
-  //Content & Documentation Department
+  {
+    name: "Mr. Vineet Pathak",
+    title: "Technical Operation",
+    img: "",
+  },
+
+  // Content & Documentation Department
+  {
+    name: "Mr. Aman Upadhyay",
+    title: "Content & Documentation",
+    img: "",
+  },
   {
     name: "Ms. Khushbu Kumari",
     title: "Content & Documentation",
     img: "",
-  }, {
-    name: "Mr. Mradul Yash",
-    title: "Content & Documentation",
-    img: "",
-  }, {
-    name: "Mr. Parv Chaudhary",
-    title: "Content & Documentation",
-    img: "",
-  }, {
-    name: "Mr. Priyanshu Jha",
-    title: "Content & Documentation",
-    img: "",
-  }, {
-    name: "Mr. Satyam Singh ",
+  },
+  {
+    name: "Mr. Garvit Saini",
     title: "Content & Documentation",
     img: "",
   },
-  //Planning & Strategy Department
   {
-    name: "Mr. Satyam Kumar Mishra",
-    title: "Planning & Strategy",
+    name: "Mr. Parv Chaudhary",
+    title: "Content & Documentation",
     img: "",
-  }, {
+  },
+  {
+    name: "Mr. Priyanshu Jha",
+    title: "Content & Documentation",
+    img: "",
+  },
+  {
+    name: "Ms. Shivani Rai",
+    title: "Content & Documentation",
+    img: "",
+  },
+
+  // Planning & Strategy Department
+  {
     name: "Mr. Aradhya Maheshwari",
     title: "Planning & Strategy",
     img: "",
-  }, {
+  },
+  {
     name: "Mr. Hariom Buchasia",
     title: "Planning & Strategy",
     img: "",
-  }, {
+  },
+  {
     name: "Mr. Kanishk Sharma",
     title: "Planning & Strategy",
     img: "",
@@ -134,5 +154,10 @@ export const teamWorking = [
     title: "Planning & Strategy",
     img: "",
   },
-  
+  {
+    name: "Mr. Satyam Kumar Mishra",
+    title: "Planning & Strategy",
+    img: "",
+  },
+
 ];

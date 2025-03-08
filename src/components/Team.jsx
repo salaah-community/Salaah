@@ -22,42 +22,42 @@ const data = [
   {
     avatar: AVTR1,
     name: "Kunal Tyagi",
-    comp: "Founder @salaah",
+    comp: "Founder @Salaah",
     review:
-      '"Idea behind the SALAAH community of mentorship is to form a strong network between seniors and juniors to provide the correct career path under the well-settled alumni."',
+      '"Idea behind the Salaah community of mentorship is to form a strong network between seniors and juniors to provide the correct career path under the well-settled alumni."',
   },
   {
     avatar: AVTR2,
     name: "Varun Rana",
-    comp: "Co-Founder @salaah",
+    comp: "Co-Founder @Salaah",
     review:
       '"We form a community under the association of recent pass out senior who is part of big MNCs  and senior who is being passionate to achieve their goals in life. "',
   },
   {
     avatar: AVTR5,
     name: "Sakshi Verma",
-    comp: "Co-Founder, @salaah",
+    comp: "Co-Founder, @Salaah",
     review:
-      '"Conducting various podcasts, events to encourage students explore new field and choose their career wisely is main goal of salaah  "',
+      '"Conducting various podcasts, events to encourage students explore new field and choose their career wisely is main goal of Salaah  "',
   },
   {
     avatar: AVTR4,
     name: "Utkarsh Singh",
-    comp: "Co-Founder, @salaah",
+    comp: "Co-Founder, @Salaah",
     review:
       '"Salaah is the very innovative and almost first ever platform which is helping students of college. We teach students how to pursue their career "',
   },
   {
     avatar: AVTR3,
     name: "Rohit Singhwal",
-    comp: "Co-Founder, @salaah",
+    comp: "Co-Founder, @Salaah",
     review:
       '"This platform was first build to enhance the quality of students in the college, although now it has become a sensation by helping more than 10K students "',
   },
   {
     avatar: AVTR6,
     name: "Shruti Singh",
-    comp: "Co-Founder, @salaah",
+    comp: "Co-Founder, @Salaah",
     review:
       '"Salaah is a platform where students can follow their career path by getting a proper guidance and support from the alumni of the college. "',
   },
