@@ -51,7 +51,16 @@ function Navbar() {
               Home
             </NavLink>
           </motion.li>
-          <li className="nav-item">
+          <motion.li
+            className="nav-item"
+            initial={{ opacity: 0.6 }}
+            whileHover={{
+              scale: 1.2,
+              transition: { duration: 0.5 },
+            }}
+            whileTap={{ scale: 0.9 }}
+            whileInView={{ opacity: 1 }}
+          >
             <NavLink
               to="/gallery"
               className="nav-links"
@@ -59,7 +68,10 @@ function Navbar() {
             >
               Gallery
             </NavLink>
-          </li>
+          </motion.li>
+          {/* <li className="nav-item">
+            
+          </li> */}
           {/* <motion.li
             className="nav-item"
             initial={{ opacity: 0.6 }}
