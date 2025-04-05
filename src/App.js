@@ -12,6 +12,8 @@ import PageNotFound from "./pages/PageNotFound.jsx";
 import Hackathon from "./components/hackathon/Hackathon"
 import Hackathon_Page from "./components/hackathon/Hackathon_Page"
 import Updates from "./components/Updates.js";
+import Events from "./pages/Events/Events.jsx";
+
 
 function App() {
   return (
@@ -33,6 +35,8 @@ function App() {
           <Route path='/hackathon' element={<Hackathon />} />
           <Route path='/updates' element={<Updates />} />
           <Route path='/hackathon/:id' element={<Hackathon_Page />} />
+          <Route path='/events' element={<Events />} />
+
         </Routes>
       </BrowserRouter>
     </div>

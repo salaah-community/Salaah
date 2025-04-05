@@ -7,43 +7,28 @@ import { motion } from "framer-motion";
 const Info = () => {
   return (
     <div>
-      <hr style={{ width: "80vw", margin: "auto", marginTop: "8rem" }} />
-      <div className="creative container infoGrid" style={{ marginTop: "8rem" }}>
-        <div className="left__side__info">
-          <h3 className="Regular">
-            Our community consists of the best mentors from the leading
-            companies of today.
-          </h3>
-        </div>
-        <div className="right__side__info" style={{ width: "70%" }}>
-          <motion.div
-            className="explore-info"
-            initial={{ opacity: 0.6 }}
-            whileHover={{
-              scale: 1.2,
-              transition: { duration: 0.5 },
-            }}
-            whileTap={{ scale: 0.9 }}
-            whileInView={{ opacity: 1 }}
-          >
-            <Link
-              to="/opportunities"
-              style={{
-                fontFamily: "Poppins, sans-serif",
-                marginBottom: "2.2rem",
-                fontSize: "1.4rem",
-                lineHeight: "24px",
-                fontWeight: "bold",
-                color: "white",
-              }}
-            >
-              <img src={circle} alt="circle" className="explore-info-img" />
-              <span className="explore-info-text">Explore Now</span>
-            </Link>
-          </motion.div>
-        </div>
-      </div>
-      <hr style={{ width: "80vw", margin: "auto" }} />
+      <div>
+              <div className="creative container homeLast">
+              <div className="left__side">
+                <h1 className="Ultrabold">Let's</h1>
+                <h1 className="Ultrabold">Explore</h1>
+              </div>
+              <div className="right__side" style={{width: '70%'}}>
+                <p style={{fontFamily: "Poppins, sans-serif",marginBottom:"2.2rem", fontSize: '1.4rem' ,lineHeight: "24px"}}>
+                Curious about our events? Dive into the experience and explore now!
+                </p>
+                <motion.div initial={{ opacity: 0.6 }}
+        whileTap={{ scale: 0.9 }}
+        whileInView={{ opacity: 1 }}>
+                <Link to="/events" className="btn-creative">
+                 Explore Now
+                </Link>
+                </motion.div>
+              </div>
+            </div>
+      
+            <hr style={{width: '80vw', margin: 'auto'}}/>
+          </div>
 
       <div className="happening">
         <div className="container">
