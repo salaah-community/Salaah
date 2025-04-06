@@ -122,11 +122,7 @@ export const teamWorking = [
     title: "Content & Documentation",
     img: "",
   },
-  {
-    name: "Ms. Shivani Rai",
-    title: "Content & Documentation",
-    img: "",
-  },
+ 
 
   // Planning & Strategy Department
   {

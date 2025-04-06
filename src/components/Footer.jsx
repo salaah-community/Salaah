@@ -48,6 +48,9 @@ const Footer = () => {
               <li>
                 <Link to="/team">Our Team</Link>
               </li>
+              <li>
+                <Link to="/events">Our Events</Link>
+              </li>
               <ul style={{ display: "flex" }}>
                 <motion.li
                   initial={{ opacity: 0.6 }}
