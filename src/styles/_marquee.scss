@@ -1,6 +1,16 @@
 $move-initial: calc(-25%);
 $move-final: calc(-50%);
 
+body{
+  overflow-x: hidden;
+}
+.banner,
+.banner-row,
+.marquee__inner {
+  overflow: visible !important;
+  position: relative !important;
+}
+
 .marquee {
   position: relative;
   overflow: hidden;
