@@ -31,7 +31,7 @@ const Home = () => {
     <Navbar />    
       <Hero />
       <About />
-      <Marquee />
+      {/* <Marquee /> */}
       <Team />
       <GlassCards />
       <Benefits />
