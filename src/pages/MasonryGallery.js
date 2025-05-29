@@ -180,12 +180,6 @@ const itemData = [
     likes: 0,
   },
   {
-    id: 24,
-    img: "https://drive.google.com/thumbnail?id=1Tw2002kNUO7lnjfAuXM8CGwgEF5OoFjE&sz=w1000",
-    title: "",
-    likes: 0,
-  },
-  {
     id: 25,
     img: "https://drive.google.com/thumbnail?id=1VSOzP9GgsiFbezpL1cLligfiQ7vFbqnW&sz=w1000",
     title: "",
