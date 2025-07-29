@@ -43,16 +43,7 @@ export const teamWorking = [
     title: "Outreach",
     img: "",
   },
-  {
-    name: "Mr. Divyanshu Chaubey",
-    title: "Outreach",
-    img: "",
-  },
-  {
-    name: "Mr. Gaurav Singh",
-    title: "Outreach",
-    img: "",
-  },
+  
   {
     name: "Mr. Harshit Agrawal",
     title: "Outreach",
