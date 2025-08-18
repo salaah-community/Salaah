@@ -2,17 +2,7 @@ export const teamWorking = [
 
   // Social Media and Marketing
   {
-    name: "Mr. Ansh Choudhary",
-    title: "Social Media & Marketing",
-    img: "",
-  },
-  {
     name: "Mr. Asad Khan",
-    title: "Social Media & Marketing",
-    img: "",
-  },
-  {
-    name: "Mr. Harshit Gupta",
     title: "Social Media & Marketing",
     img: "",
   },
@@ -23,11 +13,6 @@ export const teamWorking = [
   },
   {
     name: "Mr. Preetam Ray",
-    title: "Social Media & Marketing",
-    img: "",
-  },
-  {
-    name: "Mr. Shikhar Singh",
     title: "Social Media & Marketing",
     img: "",
   },
@@ -43,17 +28,6 @@ export const teamWorking = [
     title: "Outreach",
     img: "",
   },
-  
-  {
-    name: "Mr. Harshit Agrawal",
-    title: "Outreach",
-    img: "",
-  },
-  {
-    name: "Mr. Ritesh Pandey",
-    title: "Outreach",
-    img: "",
-  },
 
   // Technical Operations
   {
@@ -61,26 +35,7 @@ export const teamWorking = [
     title: "Technical Operation",
     img: "",
   },
-  {
-    name: "Ms. Bhumi Bhardwaj",
-    title: "Technical Operation",
-    img: "",
-  },
-  {
-    name: "Ms. Radhika Chauhan",
-    title: "Technical Operation",
-    img: "",
-  },
-  {
-    name: "Mr. Ravi Choudhary",
-    title: "Technical Operation",
-    img: "",
-  },
-  {
-    name: "Mr. Shubham Chaudhary",
-    title: "Technical Operation",
-    img: "",
-  },
+  
   {
     name: "Mr. Vineet Pathak",
     title: "Technical Operation",
@@ -93,16 +48,7 @@ export const teamWorking = [
     title: "Content & Documentation",
     img: "",
   },
-  {
-    name: "Ms. Khushbu Kumari",
-    title: "Content & Documentation",
-    img: "",
-  },
-  {
-    name: "Mr. Garvit Saini",
-    title: "Content & Documentation",
-    img: "",
-  },
+  
   {
     name: "Mr. Parv Chaudhary",
     title: "Content & Documentation",
@@ -138,11 +84,6 @@ export const teamWorking = [
   },
   {
     name: "Ms. Saumya",
-    title: "Planning & Strategy",
-    img: "",
-  },
-  {
-    name: "Mr. Satyam Kumar Mishra",
     title: "Planning & Strategy",
     img: "",
   },
