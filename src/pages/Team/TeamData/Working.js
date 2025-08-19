@@ -43,11 +43,6 @@ export const teamWorking = [
   },
 
   // Content & Documentation Department
-  {
-    name: "Mr. Aman Upadhyay",
-    title: "Content & Documentation",
-    img: "",
-  },
   
   {
     name: "Mr. Parv Chaudhary",
