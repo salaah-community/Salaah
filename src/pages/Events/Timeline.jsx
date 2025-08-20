@@ -64,13 +64,19 @@ const Timeline = () => {
   
   const SalaahEvents = [
     {
+      Date: "02-08-2025",
+      Mentor: "Kunal Tyagi",
+      About: "It was an Infosys Mock Interview organized by our Salaah community, providing students with a real-world interview experience and valuable feedback from industry experts.",
+      Outcome: "Participants gained confidence, improved their interview skills, and received personalized feedback to help them excel in future placement drives.",
+      Title: "INFOSYS MOCK INTERVIEW",
+    },
+    {
       Date: "16-07-2024",
       Mentor: "VIKRANT SINGH",
       About: "This training covered Microsoft Azure fundamentals. Participants learned cloud deployment and management through hands-on labs.",
       Outcome: "Attendees gained cloud computing knowledge and hands-on Microsoft Azure experience, including cloud security and scalability.",
       Title: "CLOUD TRAINING",
     },
-
     {
       Date: "18-06-2024",
       Mentor: "N/A",
@@ -87,14 +93,6 @@ const Timeline = () => {
       Outcome: "Participants built strong data analysis and visualization skills, learning to generate reports and automate data workflows.",
       Title: "AARAMBH 2.0",
     },
-    {
-      Date: "07-09-2023",
-      Mentor: "SWARAJ PANDEY",
-      About: "The Advanced Data Science Training covered key concepts like arrays and trees using Python, along with predictive modeling.",
-      Outcome: "Attendees gained hands-on experience in data science, working on data preprocessing and building machine learning models.",
-      Title: "DATA SCIENCE TRAINING",
-    },
-    
   ];
   
   
