@@ -65,7 +65,7 @@ const Timeline = () => {
   const SalaahEvents = [
     {
       Date: "02-08-2025",
-      Mentor: "Kunal Tyagi",
+      Mentor: "KUNAL TYAGI",
       About: "It was an Infosys Mock Interview organized by our Salaah community, providing students with a real-world interview experience and valuable feedback from industry experts.",
       Outcome: "Participants gained confidence, improved their interview skills, and received personalized feedback to help them excel in future placement drives.",
       Title: "INFOSYS MOCK INTERVIEW",
