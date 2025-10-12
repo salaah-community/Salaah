@@ -1,111 +1,48 @@
-import ayush from '../../../assets/team/ayush_kumar_gupta.jpeg'
-import bhaskar from '../../../assets/team/bhaskar_singh.jpeg'
-import devansh from '../../../assets/team/devansh_bajaj.jpeg'
-import gopal from '../../../assets/team/gopal_aggarwal.jpg'
-import kartik from '../../../assets/team/kartik_kaushik.jpeg'
-import mayank from '../../../assets/team/mayank_srivastava.jpeg'
-import prachi from '../../../assets/team/prachi_singh.jpeg'
-import priyank from '../../../assets/team/priyank_aggarwal.jpg'
-import saurabh from '../../../assets/team/saurabh_agarwal.jpg'
-import shruti from '../../../assets/team/shruti_mohanty.jpg'
-import vijit from '../../../assets/team/vijit_verma.jpg'
-import vinit from '../../../assets/team/vinit_baishkiyar.jpeg'
+import anurag from '../../../assets/team/Anurag-Singh.jpg'
+import asad from '../../../assets/team/Asad-Khan.jpg'
+import aradhya from '../../../assets/team/Aradhya-Maheshwari.jpeg'
+import hariom from '../../../assets/team/Hariom-Buchasia.jpeg'
+import nazia from '../../../assets/team/Nazia-Bano.jpeg'
+import saumya from '../../../assets/team/saumya.jpeg'
+import vineet from '../../../assets/team/Vineet-Pathak.jpg'
+
+
 
 export const teamLeads = [
     // Technical Operations
     {
-        name: "Mr. Vijit Verma",
+        name: "Mr. Vineet Pathak",
         title: 'Technical Operations',
-        img: vijit
+        img: vineet
+    },   
+    {
+        name: "Mr. Anurag Singh",
+        title: 'Technical Operations',
+        img: anurag
     },
     {
-        name: "Mr. Ayush Kumar Gupta",
-        title: 'Technical Operations',
-        // title: 'Resource Management & Activities',
-        img: ayush
-    },
-    {
-        name: "Mr. Mayank Srivastava",
-        title: 'Technical Operations',
-        img: mayank
-    },
-    {
-        name: "Mr. Priyank Aggarwal",
-        title: 'Technical Operations',
-        img: priyank
-    },
-   
-    {
-        name: "Mr. Saurabh Agrawal",
+        name: "Mr. Asad Khan",
         title: "Social Media & Marketing",
-        img: saurabh,
+        img: asad,
     },
     {
-        name: "Mr. Bhaskar Singh",
+        name: "Mr. Aradhya Maheshwari",
+        title: "Social Media & Marketing",
+        img: aradhya,
+    },
+    {
+        name: "Mr. Hariom Buchasia",
         title: "Planning & Strategy",
-        img: bhaskar,
+        img: hariom,
     },
     {
-        name: "Mr. Gopal Aggarwal",
-        title: "Planning & Strategy",
-        img: gopal,
-    },
-    {
-        name: "Ms. Prachi Singh",
+        name: "Ms. Nazia Bano",
         title: "Content & Documentation",
-        img: prachi,
+        img: nazia,
     },
     {
-        name: "Ms. Shruti Mohanty",
-        title: "Content & Documentation",
-        img: shruti,
-    },
-    {
-        name: "Mr. Devansh Bajaj",
+        name: "Ms. Saumya",
         title: "Outreach",
-        img: devansh,
-    },
-    {
-        name: "Mr. Kartik Kaushik",
-        title: "Outreach",
-        img: kartik,
-    },
-    {
-        name: "Mr. Vinit Baishkiyar",
-        title: "Outreach",
-        img: vinit,
+        img: saumya,
     },
 ]
-
-// {
-//     name: 'Mr. Abhishek Yadav',
-//     title: 'Social Media & Marketing',
-//     img: abhishek
-// },
-// {
-//     name: 'Mr. Aryan Garg',
-//     title: 'Social Media & Marketing',
-//     img: aryan
-// },
-// //? Head Mentor-Mentee & Outreach
-// {
-//     name: 'Ms. Sakshi Sharma',
-//     title: 'Mentor-Mentee & Outreach',
-//     img: sakshi
-// },
-// {
-//     name: 'Mr. Harsh Jadoun',
-//     title: 'Mentor-Mentee & Outreach',
-//     img: harsh
-// },
-// // ? Head of Mock Interview & Technical Program
-// {
-//     name: 'Ms. Vrisha Garg',
-//     title: 'Mock Interview & Technical Program',
-//     img: vrihsa
-// },
-// {
-//     name: 'Mr. Divyansh Agarwal',
-//     title: 'Mock Interview & Technical Program',
-//     img: divyansh
-// }

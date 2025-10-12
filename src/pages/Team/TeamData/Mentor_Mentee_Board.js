@@ -21,6 +21,20 @@ import shrey from "../../../assets/team/shreyvashistha.jpg";
 import Tanisha from "../../../assets/team/tanisha.jpg";
 import tanya from "../../../assets/team/Tanya.jpg";
 import vivek from "../../../assets/team/vivek.jpeg";
+import Anshika from "../../../assets/team/anshika_verma.jpg";
+import Divyam from "../../../assets/team/divyam_kumar.JPG";
+import Tashvi from "../../../assets/team/tashvi_chaudhary.jpg";
+import UtkarshK from "../../../assets/team/utkarsh_kumar.jpg";
+import UtkarshS from "../../../assets/team/utkarsh_sharma.jpg";
+import saurabh_agarwal from '../../../assets/team/saurabh_agarwal.jpg';
+import vijit from '../../../assets/team/vijit_verma.jpeg';
+import mayank from '../../../assets/team/mayank_srivastava.jpeg'
+import bhaskar from '../../../assets/team/bhaskar_singh.jpeg'
+import shruti from '../../../assets/team/shruti_mohanty.jpg'
+import prachi from '../../../assets/team/prachi_singh.jpeg'
+
+
+
 
 export const mentors = [
   {
@@ -78,42 +92,94 @@ export const mentors = [
   },
   {
     name: "Mr. Naman Goel",
-    img: Naman
+    img: Naman,
   },
   {
     name: "Mr. Parth Singhal",
-    img: parth
+    img: parth,
   },
   {
     name: "Ms. Kavya Tyagi",
-    img: kavya
+    img: kavya,
   },
   {
     name: "Mr. Harshit Singh Mahara",
-    img: harshit
+    img: harshit,
   },
   {
     name: "Ms. Tanisha Bhatt",
-    img: Tanisha
+    img: Tanisha,
   },
   {
     name: "Ms. Tanya Srivastava",
-    img: tanya
+    img: tanya,
   },
   {
     name: "Mr. Faraz Hafeez",
-    img: faraz
+    img: faraz,
   },
   {
     name: "Ms. Khushi Chaudhary",
-    img: khushi
+    img: khushi,
   },
   {
     name: "Mr. Ish Purwar",
-    img: ish
+    img: ish,
   },
   {
     name: "Mr. Vivek Kumar Tiwari",
-    img: vivek
+    img: vivek,
+  },
+  {
+    name: "Mr. Utkarsh Sharma",
+
+    img: UtkarshS,
+  },
+  {
+    name: "Ms. Tashvi Chaudhary",
+
+    img: Tashvi,
+  },
+  {
+    name: "Mr. Divyam Kumar",
+
+    img: Divyam,
+  },
+  {
+    name: "Ms. Anshika Verma",
+
+    img: Anshika,
+  },
+  {
+    name: "Mr. Utkarsh Kumar",
+
+    img: UtkarshK,
+  },
+  {
+    name: "Mr. Saurabh Agrawal",
+
+    img: saurabh_agarwal,
+  },
+  {
+    name: "Mr. Vijit Verma",
+    img: vijit,
+  },
+  {
+    name: "Mr. Mayank Srivastava",
+    img: mayank,
+  },
+  {
+    name: "Mr. Bhaskar Singh",
+    img: bhaskar,
+  },
+  {
+    name: "Ms. Shruti Mohanty",
+
+    img: shruti,
+  },
+  {
+    name: "Ms. Prachi Singh",
+
+    img: prachi,
   },
 ];
