@@ -103,7 +103,7 @@ const Team = () => {
               </div>
             </div>
           </div>
-          <div id="team-section">
+          {/* <div id="team-section">
               <h1 className="team_headline Regular">Working Committee</h1>
               <div style={{ marginBottom: "7rem",marginTop: "3rem" }}>
                 <div className="teamCard_grid">
@@ -112,7 +112,7 @@ const Team = () => {
                   })}
                 </div>
               </div>
-            </div>            
+            </div>             */}
         </div>
         <Footer />
       </motion.div>
