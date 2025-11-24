@@ -161,83 +161,83 @@ img:"",
 {
   name:"Mr.Rakesh Kundu",
   title:"Technical operation",
-  img:""
+  img:"",
 },
 {
   name:"Ms.Ekta Jamloki",
   title:"Technical operation",
-  img:""
+  img:"",
 },
 {
   name:"Mr.Bhuwan Sharma",
   title:"Technical operation",
-  img:""
+  img:"",
 },
 {
   name:"Ms.Soumya Baranwal",
   title:"Technical operation",
-  img:""
+  img:"",
 },
 //Content and Documentation:
 {
   name:"Mr.Aayush Joshi",
   title:"Content and Documentation",
-  img:""
+  img:"",
 },
 {
   name:"Ms.Anshika Choudhary",
   title:"Content and Documentation",
-  img:""
+  img:"",
 },
 {
   name:"Mr.Anuj Pratap Singh",
   title:"Content and Documentation",
-  img:""
+  img:"",
 },
 {
   name:"Ms.Khushi Saini",
   title:"Content and Documentation",
-  img:""
+  img:"",
 },
 {
   name:"Mr.Shivang",
   title:"Content and Documentation",
-  img:""
+  img:"",
 },
 {
   name:"Mr.Yashashkar Srivastava",
   title:"Content and Documentation",
-  img:""
+  img:"",
 },
 //Planning and Strategy:
 {
   name:"Mr.Abhinav Pratap Singh",
   title:"Planning and Strategy",
-  img:""
+  img:"",
 },
 {
   name:"Ms.Ananya Sharma",
   title:"Planning and Strategy",
-  img:""
+  img:"",
 },
 {
   name:"Ms.Aparna Nigam",
   title:"Planning and Strategy",
-  img:""
+  img:"",
 },
 {
   name:"Mr.Avinash Kumar Shukla",
   title:"Planning and Strategy",
-  img:""
+  img:"",
 },
 {
   name:"Mr.Priyansh Gupta",
   title:"Planning and Strategy",
-  img:""
+  img:"",
 },
 {
   name:"Mr.Rahul Raj Tiwari",
   title:"Planning and Strategy",
-  img:""
+  img:"",
 },
 ];
