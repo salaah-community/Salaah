@@ -1,45 +1,80 @@
 export const teamWorking = [
   // Social Media and Marketing
   {
-    name: "Mr. Asad Khan",
+    name: "Mr. Ankur",
     title: "Social Media & Marketing",
     img: "",
   },
   {
-    name: "Mr. Mujtaba Haider",
+    name: "Ms. Anshita Varshney",
     title: "Social Media & Marketing",
     img: "",
   },
   {
-    name: "Mr. Preetam Ray",
+    name: "Mr. Aryan",
+    title: "Social Media & Marketing",
+    img: "",
+  },
+  {
+    name: "Mr. Ashish Gupta",
+    title: "Social Media & Marketing",
+    img: "",
+  },
+  {
+    name: "Mr. Ashish Kashyap",
+    title: "Social Media & Marketing",
+    img: "",
+  },
+  {
+    name: "Mr. Ramyak Verma",
+    title: "Social Media & Marketing",
+    img: "",
+  },
+  {
+    name: "Ms. Reshal Dhupar",
+    title: "Social Media & Marketing",
+    img: "",
+  },
+  {
+    name: "Mr. Suraj",
     title: "Social Media & Marketing",
     img: "",
   },
 
   // Outreach Department
   {
-    name: "Mr. Adarsh Prakash Singh",
+    name: "Mr. Aksh Chauhan",
     title: "Outreach",
     img: "",
   },
   {
-    name: "Ms. Ananya Chaturvedi",
+    name: "Ms. Avika Pal",
+    title: "Outreach",
+    img: "",
+  },
+  {
+    name: "Ms. Riya Yadav",
+    title: "Outreach",
+    img: "",
+  },
+  {
+    name: "Mr. Saurav Tyagi",
+    title: "Outreach",
+    img: "",
+  },
+  {
+    name: "Ms. Tanushree Saxena",
+    title: "Outreach",
+    img: "",
+  },
+  {
+    name: "Ms. Vanshika Garg",
     title: "Outreach",
     img: "",
   },
 
   // Technical Operations
-  {
-    name: "Mr. Anurag Singh",
-    title: "Technical Operation",
-    img: "",
-  },
 
-  {
-    name: "Mr. Vineet Pathak",
-    title: "Technical Operation",
-    img: "",
-  },
   {
     name: "Mr. Bhuwan Sharma",
     title: "Technical Operation",
@@ -64,39 +99,64 @@ export const teamWorking = [
   // Content & Documentation Department
 
   {
-    name: "Mr. Parv Chaudhary",
+    name: "Mr. Aayush Joshi",
     title: "Content & Documentation",
     img: "",
   },
   {
-    name: "Mr. Priyanshu Jha",
+    name: "Ms. Anshika Choudhary",
+    title: "Content & Documentation",
+    img: "",
+  },
+  {
+    name: "Mr. Anuj Pratap Singh",
+    title: "Content & Documentation",
+    img: "",
+  },
+  {
+    name: "Ms. Khushi Saini",
+    title: "Content & Documentation",
+    img: "",
+  },
+  {
+    name: "Mr. Shivang",
+    title: "Content & Documentation",
+    img: "",
+  },
+  {
+    name: "Mr. Yashashkar Srivastava",
     title: "Content & Documentation",
     img: "",
   },
 
   // Planning & Strategy Department
   {
-    name: "Mr. Aradhya Maheshwari",
+    name: "Mr. Abhinav Pratap Singh",
     title: "Planning & Strategy",
     img: "",
   },
   {
-    name: "Mr. Hariom Buchasia",
+    name: "Ms. Ananya Sharma",
     title: "Planning & Strategy",
     img: "",
   },
   {
-    name: "Mr. Kanishk Sharma",
+    name: "Ms. Aparna Nigam",
     title: "Planning & Strategy",
     img: "",
   },
   {
-    name: "Ms. Nazia Bano",
+    name: "Mr. Avinash Kumar Shukla",
     title: "Planning & Strategy",
     img: "",
   },
   {
-    name: "Ms. Saumya",
+    name: "Mr. Priyansh Gupta",
+    title: "Planning & Strategy",
+    img: "",
+  },
+  {
+    name: "Mr. Rahul Raj Tiwari",
     title: "Planning & Strategy",
     img: "",
   },
