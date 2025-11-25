@@ -1,5 +1,4 @@
 export const teamWorking = [
-
   // Social Media and Marketing
   {
     name: "Mr. Asad Khan",
@@ -35,15 +34,35 @@ export const teamWorking = [
     title: "Technical Operation",
     img: "",
   },
-  
+
   {
     name: "Mr. Vineet Pathak",
     title: "Technical Operation",
     img: "",
   },
+  {
+    name: "Mr. Bhuwan Sharma",
+    title: "Technical Operation",
+    img: "",
+  },
+  {
+    name: "Ms. Ekta Jamloki",
+    title: "Technical Operation",
+    img: "",
+  },
+  {
+    name: "Mr. Rakesh Kundu",
+    title: "Technical Operation",
+    img: "",
+  },
+  {
+    name: "Ms. Saumya Baranwal",
+    title: "Technical Operation",
+    img: "",
+  },
 
   // Content & Documentation Department
-  
+
   {
     name: "Mr. Parv Chaudhary",
     title: "Content & Documentation",
@@ -54,7 +73,6 @@ export const teamWorking = [
     title: "Content & Documentation",
     img: "",
   },
- 
 
   // Planning & Strategy Department
   {
@@ -82,5 +100,4 @@ export const teamWorking = [
     title: "Planning & Strategy",
     img: "",
   },
-
 ];
