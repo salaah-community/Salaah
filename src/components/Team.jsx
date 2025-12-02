@@ -91,17 +91,21 @@ const Team = () => {
             {data.map(({ name, comp, review, avatar }, index) => {
               return (
                 <SwiperSlide key={index} className="team">
-                  <p
-                    className="client__review Poppins">
-                    <div style={{height: '10rem'}}>{review}</div>
-                     <hr className="lin" />
+                  <p className="client__review Poppins">
+                    <div style={{ height: "10rem" }}>{review}</div>
+                    <hr className="lin" />
                     <div className="client__container">
                       <div className="client__avatar">
                         <img src={avatar} alt="Img1" />
                       </div>
-                      <div style={{display: 'flex', flexDirection: 'column'}}>
-                      <div style={{ textAlign: 'left' }}>{name}</div>
-                      <div className="Regular" style={{ fontSize: "14px", textAlign: 'left' }}>{comp}</div>
+                      <div style={{ display: "flex", flexDirection: "column" }}>
+                        <div style={{ textAlign: "left" }}>{name}</div>
+                        <div
+                          className="Regular"
+                          style={{ fontSize: "14px", textAlign: "left" }}
+                        >
+                          {comp}
+                        </div>
                       </div>
                     </div>
                   </p>
