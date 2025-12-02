@@ -1,7 +1,7 @@
 import React from "react";
 import TeamCards from "./TeamCards";
 // import AnimatedCursor from "react-animated-cursor";
-import { motion } from 'framer-motion';
+import { motion } from "framer-motion";
 import Footer from "../../components/Footer";
 import Navbar from "../../components/Navbar";
 import "./Team.css";
@@ -48,7 +48,14 @@ const Team = () => {
             <div style={{ marginBottom: "7rem" }}>
               <div className="teamCard_grid">
                 {teamHeads.map(({ name, title, img }) => {
-                  return <TeamCards name={name} title={title} img={img} loading="lazy" />;
+                  return (
+                    <TeamCards
+                      name={name}
+                      title={title}
+                      img={img}
+                      loading="lazy"
+                    />
+                  );
                 })}
               </div>
             </div>
@@ -58,7 +65,14 @@ const Team = () => {
             <div style={{ marginBottom: "7rem" }}>
               <div className="teamCard_grid">
                 {teamBoard.map(({ name, title, img }) => {
-                  return <TeamCards name={name} title={title} img={img} loading="lazy" />;
+                  return (
+                    <TeamCards
+                      name={name}
+                      title={title}
+                      img={img}
+                      loading="lazy"
+                    />
+                  );
                 })}
               </div>
             </div>
@@ -68,7 +82,14 @@ const Team = () => {
             <div style={{ marginBottom: "7rem" }}>
               <div className="teamCard_grid">
                 {mentors.map(({ name, title, img }) => {
-                  return <TeamCards name={name} title={title} img={img} loading="lazy" />;
+                  return (
+                    <TeamCards
+                      name={name}
+                      title={title}
+                      img={img}
+                      loading="lazy"
+                    />
+                  );
                 })}
               </div>
             </div>
@@ -78,7 +99,14 @@ const Team = () => {
             <div style={{ marginBottom: "7rem" }}>
               <div className="teamCard_grid">
                 {teamExec.map(({ name, title, img }) => {
-                  return <TeamCards name={name} title={title} img={img} loading="lazy" />;
+                  return (
+                    <TeamCards
+                      name={name}
+                      title={title}
+                      img={img}
+                      loading="lazy"
+                    />
+                  );
                 })}
               </div>
             </div>
@@ -88,7 +116,14 @@ const Team = () => {
             <div style={{ marginBottom: "7rem" }}>
               <div className="teamCard_grid">
                 {teamLeads.map(({ name, title, img }) => {
-                  return <TeamCards name={name} title={title} img={img} loading="lazy" />;
+                  return (
+                    <TeamCards
+                      name={name}
+                      title={title}
+                      img={img}
+                      loading="lazy"
+                    />
+                  );
                 })}
               </div>
             </div>
@@ -103,16 +138,16 @@ const Team = () => {
               </div>
             </div>
           </div>
-          {/* <div id="team-section">
-              <h1 className="team_headline Regular">Working Committee</h1>
-              <div style={{ marginBottom: "7rem",marginTop: "3rem" }}>
-                <div className="teamCard_grid">
-                  {teamWorking.map(({ name, title }) => {
-                    return <TeamList name={name} title={title} />;
-                  })}
-                </div>
+          <div id="team-section">
+            <h1 className="team_headline Regular">Working Committee</h1>
+            <div style={{ marginBottom: "7rem", marginTop: "3rem" }}>
+              <div className="teamCard_grid">
+                {teamWorking.map(({ name, title }) => {
+                  return <TeamList name={name} title={title} />;
+                })}
               </div>
-            </div>             */}
+            </div>
+          </div>
         </div>
         <Footer />
       </motion.div>
