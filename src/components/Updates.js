@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import { motion } from "framer-motion";
 import Footer from "../components/Footer";
 import UpdateComponent from "./UpdateComponent/UpdateComponent";
+import Form from "../components/Form";
 
 function Updates() {
   return (
@@ -22,9 +23,10 @@ function Updates() {
               Important Updates!
             </h1>
           </div>
-          <div className="updates-list">
+          <Form />
+          {/* <div className="updates-list">
             <UpdateComponent />
-          </div>
+          </div> */}
         </div>
       </motion.div>
       <Footer />
