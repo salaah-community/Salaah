@@ -32,7 +32,15 @@ import mayank from '../../../assets/team/mayank_srivastava.jpeg'
 import bhaskar from '../../../assets/team/bhaskar_singh.jpeg'
 import shruti from '../../../assets/team/shruti_mohanty.jpg'
 import prachi from '../../../assets/team/prachi_singh.jpeg'
-
+import Kanishk from "../../../assets/team/Kanishk-Sharma.jpg";
+import Ananya from "../../../assets/team/Ananya-Chaturvedi.jpg";
+import Parv from "../../../assets/team/Parv-Chaudhary.jpeg";
+import Preetam from "../../../assets/team/Preetam-Roy.jpg";
+import Priyanshu from "../../../assets/team/Priyanshu-Jha.jpg";
+import hariom from '../../../assets/team/Hariom-Buchasia.jpeg'
+import nazia from '../../../assets/team/Nazia-Bano.jpeg'
+import saumya from '../../../assets/team/saumya.jpeg'
+import vineet from '../../../assets/team/Vineet-Pathak.jpg'
 
 
 
@@ -181,5 +189,52 @@ export const mentors = [
     name: "Ms. Prachi Singh",
 
     img: prachi,
+  },
+  //mentors-2026-27
+  {
+    name:"Ms. Ananya Chaturvedi",
+
+    img:Ananya,
+  },
+   {
+    name:"Ms. Saumya",
+
+    img:saumya,
+  },
+  {
+    name:"Ms. Nazia Bano",
+
+    img:nazia,
+  },
+  
+   {
+    name:"Mr. Vineet Pathak",
+
+    img:vineet,
+  },
+  {
+    name:"Mr. Hariom Buchasia",
+
+    img:hariom,
+  },
+  {
+    name:"Mr. Kanishk Sharma",
+
+    img:Kanishk,
+  },
+  {
+    name:"Mr. Priyanshu Jha",
+
+    img:Priyanshu,
+  },
+   {
+    name:"Mr. Preetam Ray",
+
+    img:Preetam,
+  },
+  {
+    name:"Mr. Parv Chaudhary",
+
+    img:Parv,
   },
 ];

@@ -4,3 +4,4 @@ salaah-sanity/node_modules
 .gitignore
 .env
 salaah-sanity/.gitignore
+build/

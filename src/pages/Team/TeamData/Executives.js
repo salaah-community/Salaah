@@ -1,33 +1,35 @@
-import Ananya from "../../../assets/team/Ananya-Chaturvedi.jpg";
-import Kanishk from "../../../assets/team/Kanishk-Sharma.jpg";
-import Parv from "../../../assets/team/Parv-Chaudhary.jpeg";
-import Preetam from "../../../assets/team/Preetam-Roy.jpg";
-import Priyanshu from "../../../assets/team/Priyanshu-Jha.jpg";
+import vanshika from "../../../assets/team/vanshika.jpg";
+import ashish from "../../../assets/team/ashish.jpg";
+import aryan from "../../../assets/team/aryan.jpeg";
+import priyansh from "../../../assets/team/Priyansh.jpg";
+import yashashkar from "../../../assets/team/yashashkar.jpg";
+
 
 export const teamExec = [
   {
-    name: "Ms. Ananya Chaturvedi",
+    name: "Ms. Vanshika Garg",
 
-    img: Ananya,
+    img: vanshika,
   },
   {
-    name: "Mr. Kanishk Sharma",
+    name: "Mr. Ashish Gupta",
 
-    img: Kanishk,
+    img: ashish,
   },
   {
-    name: "Mr. Preetam Ray",
+    name:"Mr. Aryan",
 
-    img: Preetam,
+    img: aryan,
   },
   {
-    name: "Mr. Priyanshu Jha",
+    name: "Mr. Priyansh Gupta",
 
-    img: Priyanshu,
+    img: priyansh,
   },
   {
-    name: "Mr. Parv Chaudhary",
+    name : "Mr. Yashashkar Srivastava",
 
-    img: Parv,
+    img: yashashkar,
   }
+  
 ];

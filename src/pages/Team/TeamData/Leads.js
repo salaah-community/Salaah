@@ -1,48 +1,57 @@
-import anurag from '../../../assets/team/Anurag-Singh.jpg'
-import asad from '../../../assets/team/Asad-Khan.jpg'
-import aradhya from '../../../assets/team/Aradhya-Maheshwari.jpeg'
-import hariom from '../../../assets/team/Hariom-Buchasia.jpeg'
-import nazia from '../../../assets/team/Nazia-Bano.jpeg'
-import saumya from '../../../assets/team/saumya.jpeg'
-import vineet from '../../../assets/team/Vineet-Pathak.jpg'
-
+import Rakesh from '../../../assets/team/Rakesh.jpeg'
+import  Ankur from '../../../assets/team/Ankur.jpg'
+import anshita from '../../../assets/team/anshita.jpg'
+import suraj from '../../../assets/team/suraj.jpeg'
+import anshika from '../../../assets/team/anshika.jpg'
+import soumya from '../../../assets/team/soumya.jpeg'
+import tanushree from '../../../assets/team/tanushree.jpeg'
+import avinash from '../../../assets/team/avinash.jpg'
 
 
 export const teamLeads = [
     // Technical Operations
     {
-        name: "Mr. Vineet Pathak",
+        name: "Mr. Rakesh Kundu",
         title: 'Technical Operations',
-        img: vineet
+        img: Rakesh
     },   
+    //social media 
     {
-        name: "Mr. Anurag Singh",
-        title: 'Technical Operations',
-        img: anurag
-    },
-    {
-        name: "Mr. Asad Khan",
+        name: "Mr. Ankur",
         title: "Social Media & Marketing",
-        img: asad,
+        img: Ankur,
     },
     {
-        name: "Mr. Aradhya Maheshwari",
+        name: "Ms. Anshita Varshney",
         title: "Social Media & Marketing",
-        img: aradhya,
+        img: anshita,
     },
     {
-        name: "Mr. Hariom Buchasia",
-        title: "Planning & Strategy",
-        img: hariom,
+        name: "Mr. Suraj",
+        title: "Social Media & Marketing",
+        img: suraj,
     },
+    //content and Documentation:-
     {
-        name: "Ms. Nazia Bano",
+        name: "Ms. Anshika Choudhary",
         title: "Content & Documentation",
-        img: nazia,
+        img: anshika,
+    },
+    //outreach
+    {
+        name: "Ms. Soumya Baranwal",
+        title: "Outreach",
+        img: soumya,
     },
     {
-        name: "Ms. Saumya",
+        name: "Ms. Tanushree Saxena",
         title: "Outreach",
-        img: saumya,
+        img: tanushree
+    },
+    //planning :-
+    {
+        name: "Mr. Avinash Kumar Shukla ",
+        title: "Planning & Strategy",
+        img: avinash,
     },
 ]
